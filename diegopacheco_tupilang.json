@@ -15,7 +15,15 @@
       "loc": 349,
       "commits": 18,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/interpreter"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/interpreter",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 32
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/parser/Parser.java",
@@ -24,7 +32,15 @@
       "loc": 466,
       "commits": 17,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/parser"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/parser",
+      "smells": {
+        "long_file": false,
+        "long_functions": 3,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 52
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/lexer/Lexer.java",
@@ -33,7 +49,15 @@
       "loc": 224,
       "commits": 14,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/lexer"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/lexer",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 33
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/token/Token.java",
@@ -42,7 +66,15 @@
       "loc": 91,
       "commits": 10,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/token"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/token",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 5
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/repl/REPL.java",
@@ -51,7 +83,15 @@
       "loc": 230,
       "commits": 10,
       "bugs": 2,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/repl"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/repl",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/interpreter/InterpreterTest.java",
@@ -60,7 +100,15 @@
       "loc": 482,
       "commits": 7,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/interpreter"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/interpreter",
+      "smells": {
+        "long_file": false,
+        "long_functions": 2,
+        "deep_nesting": 4,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 47
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/repl/REPLTest.java",
@@ -69,7 +117,15 @@
       "loc": 217,
       "commits": 5,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/repl"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/repl",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 20
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/FunctionDefinition.java",
@@ -78,7 +134,15 @@
       "loc": 34,
       "commits": 5,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/VariableExpr.java",
@@ -87,7 +151,15 @@
       "loc": 19,
       "commits": 5,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/LiteralIntExpr.java",
@@ -96,7 +168,15 @@
       "loc": 18,
       "commits": 5,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/IfStatement.java",
@@ -105,7 +185,15 @@
       "loc": 31,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/CallExpr.java",
@@ -114,7 +202,15 @@
       "loc": 22,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ExpressionStatement.java",
@@ -123,7 +219,15 @@
       "loc": 13,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/Stmt.java",
@@ -132,7 +236,15 @@
       "loc": 3,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/Expr.java",
@@ -141,7 +253,15 @@
       "loc": 3,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ReturnStatement.java",
@@ -150,7 +270,15 @@
       "loc": 14,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/Param.java",
@@ -159,7 +287,15 @@
       "loc": 19,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/LiteralStringExpr.java",
@@ -168,7 +304,15 @@
       "loc": 14,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/BinaryExpr.java",
@@ -177,7 +321,15 @@
       "loc": 26,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ValDeclaration.java",
@@ -186,7 +338,15 @@
       "loc": 19,
       "commits": 4,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/Main.java",
@@ -195,7 +355,15 @@
       "loc": 44,
       "commits": 3,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 26
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ForStatement.java",
@@ -204,7 +372,15 @@
       "loc": 75,
       "commits": 3,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 36
     },
     {
       "path": "run.sh",
@@ -213,7 +389,15 @@
       "loc": 4,
       "commits": 2,
       "bugs": 0,
-      "directory": ""
+      "directory": "",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "repl.sh",
@@ -222,7 +406,15 @@
       "loc": 3,
       "commits": 2,
       "bugs": 0,
-      "directory": ""
+      "directory": "",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/token/TokenTest.java",
@@ -231,7 +423,15 @@
       "loc": 243,
       "commits": 2,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/token"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/token",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 35
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/lexer/LexerTest.java",
@@ -240,7 +440,15 @@
       "loc": 299,
       "commits": 2,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/lexer"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/lexer",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 45
     },
     {
       "path": "src/main/java/module-info.java",
@@ -249,7 +457,15 @@
       "loc": 10,
       "commits": 2,
       "bugs": 1,
-      "directory": "src/main/java"
+      "directory": "src/main/java",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/std/LenSTD.java",
@@ -258,7 +474,15 @@
       "loc": 34,
       "commits": 2,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/std"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/std",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 35
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/std/PrintSTD.java",
@@ -267,7 +491,15 @@
       "loc": 38,
       "commits": 2,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/std"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/std",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 15
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/std/StandardFunction.java",
@@ -276,7 +508,15 @@
       "loc": 6,
       "commits": 2,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/std"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/std",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ArrayLiteralExpr.java",
@@ -285,7 +525,15 @@
       "loc": 32,
       "commits": 2,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/LiteralBoolExpr.java",
@@ -294,7 +542,15 @@
       "loc": 19,
       "commits": 2,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "build.sh",
@@ -303,7 +559,15 @@
       "loc": 4,
       "commits": 1,
       "bugs": 0,
-      "directory": ""
+      "directory": "",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": ".mvn/wrapper/MavenWrapperDownloader.java",
@@ -312,7 +576,15 @@
       "loc": 117,
       "commits": 1,
       "bugs": 0,
-      "directory": ".mvn/wrapper"
+      "directory": ".mvn/wrapper",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 10
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/std/PrintSTDTest.java",
@@ -321,7 +593,15 @@
       "loc": 70,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/std"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/std",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/std/LenSTDTest.java",
@@ -330,7 +610,15 @@
       "loc": 60,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/std"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/std",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/parser/ParserTest.java",
@@ -339,7 +627,15 @@
       "loc": 244,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/parser"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/parser",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/VariableExprTest.java",
@@ -348,7 +644,15 @@
       "loc": 43,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/BinaryExprTest.java",
@@ -357,7 +661,15 @@
       "loc": 97,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ReturnStatementTest.java",
@@ -366,7 +678,15 @@
       "loc": 59,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/LiteralIntExprTest.java",
@@ -375,7 +695,15 @@
       "loc": 48,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ExpressionStatementTest.java",
@@ -384,7 +712,15 @@
       "loc": 42,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/LiteralBoolExprTest.java",
@@ -393,7 +729,15 @@
       "loc": 40,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/BlockStmtTest.java",
@@ -402,7 +746,15 @@
       "loc": 60,
       "commits": 1,
       "bugs": 0,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/UnaryExprTest.java",
@@ -411,7 +763,15 @@
       "loc": 89,
       "commits": 1,
       "bugs": 0,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ForStatementTest.java",
@@ -420,7 +780,15 @@
       "loc": 103,
       "commits": 1,
       "bugs": 0,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/LiteralStringExprTest.java",
@@ -429,7 +797,15 @@
       "loc": 42,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/IfStatementTest.java",
@@ -438,7 +814,15 @@
       "loc": 94,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/FunctionDefinitionTest.java",
@@ -447,7 +831,15 @@
       "loc": 110,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ValDeclarationTest.java",
@@ -456,7 +848,15 @@
       "loc": 56,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ArrayLiteralExprTest.java",
@@ -465,7 +865,15 @@
       "loc": 39,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ArrayAccessExprTest.java",
@@ -474,7 +882,15 @@
       "loc": 25,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/CallExprTest.java",
@@ -483,7 +899,15 @@
       "loc": 104,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ParamTest.java",
@@ -492,7 +916,15 @@
       "loc": 62,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/BlockStmt.java",
@@ -501,7 +933,15 @@
       "loc": 25,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ArrayAccessExpr.java",
@@ -510,7 +950,15 @@
       "loc": 24,
       "commits": 1,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/AssignExpr.java",
@@ -519,7 +967,15 @@
       "loc": 32,
       "commits": 1,
       "bugs": 1,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "src/main/java/com/github/diegopacheco/tupilang/ast/UnaryExpr.java",
@@ -528,7 +984,15 @@
       "loc": 32,
       "commits": 1,
       "bugs": 0,
-      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     }
   ]
 }

@@ -15,7 +15,15 @@
       "loc": 465,
       "commits": 4,
       "bugs": 3,
-      "directory": "src"
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 4,
+        "deep_nesting": 4,
+        "long_lines": 6,
+        "low_comments": true
+      },
+      "smell_score": 96
     }
   ]
 }

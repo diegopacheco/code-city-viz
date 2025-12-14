@@ -76,6 +76,63 @@ def count_lines(filepath):
     except:
         return 0
 
+def analyze_smells(filepath):
+    smells = {
+        'long_file': False,
+        'long_functions': 0,
+        'deep_nesting': 0,
+        'long_lines': 0,
+        'low_comments': False
+    }
+    try:
+        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+            lines = f.readlines()
+    except:
+        return smells, 0
+    total_lines = len(lines)
+    if total_lines > 500:
+        smells['long_file'] = True
+    comment_lines = 0
+    current_indent = 0
+    max_indent = 0
+    function_start = -1
+    function_lengths = []
+    function_patterns = re.compile(r'^\s*(def |function |fn |func |public |private |protected |void |int |string |async )')
+    for i, line in enumerate(lines):
+        stripped = line.rstrip()
+        if not stripped:
+            continue
+        if len(stripped) > 120:
+            smells['long_lines'] += 1
+        if re.match(r'^\s*(#|//|/\*|\*|<!--)', stripped):
+            comment_lines += 1
+        indent = len(line) - len(line.lstrip())
+        spaces_per_level = 4
+        indent_level = indent // spaces_per_level
+        if indent_level > max_indent:
+            max_indent = indent_level
+        if function_patterns.match(line):
+            if function_start >= 0:
+                func_len = i - function_start
+                function_lengths.append(func_len)
+            function_start = i
+    if function_start >= 0:
+        function_lengths.append(total_lines - function_start)
+    if max_indent > 4:
+        smells['deep_nesting'] = max_indent - 4
+    smells['long_functions'] = sum(1 for fl in function_lengths if fl > 50)
+    if total_lines > 20 and comment_lines / total_lines < 0.05:
+        smells['low_comments'] = True
+    smell_score = 0
+    if smells['long_file']:
+        smell_score += 25
+    smell_score += min(smells['long_functions'] * 10, 30)
+    smell_score += min(smells['deep_nesting'] * 5, 20)
+    smell_score += min(smells['long_lines'], 15)
+    if smells['low_comments']:
+        smell_score += 10
+    return smells, min(smell_score, 100)
+
 def get_file_extension(filepath):
     _, ext = os.path.splitext(filepath)
     return ext.lower() if ext else 'none'
@@ -106,6 +163,9 @@ def analyze_codebase(root_dir):
             rel_path = os.path.join(rel_dir, filename) if rel_dir else filename
             commits = commit_counts.get(rel_path, 1)
             bugs = bug_counts.get(rel_path, 0)
+            smells, smell_score = analyze_smells(filepath)
+            bug_ratio_score = min(int((bugs / max(commits, 1)) * 50), 30)
+            final_smell_score = min(smell_score + bug_ratio_score, 100)
             files_data.append({
                 'path': rel_path,
                 'name': filename,
@@ -113,7 +173,9 @@ def analyze_codebase(root_dir):
                 'loc': loc,
                 'commits': commits,
                 'bugs': bugs,
-                'directory': rel_dir
+                'directory': rel_dir,
+                'smells': smells,
+                'smell_score': final_smell_score
             })
     return sorted(files_data, key=lambda x: x['commits'], reverse=True)
 
@@ -164,8 +226,10 @@ def main():
         existing_files.append(output_filename)
         with open(files_json_path, 'w') as f:
             json.dump(existing_files, f)
+    smelly_files = len([f for f in files_data if f['smell_score'] > 50])
     print(f"Analysis complete: {output['total_files']} files, {output['total_loc']} LOC")
     print(f"Found {total_bugs} bug-related commits affecting {files_with_bugs} files")
+    print(f"Found {smelly_files} files with high code smell scores (>50)")
     print(f"Data saved to {output_path}")
 
 if __name__ == '__main__':
