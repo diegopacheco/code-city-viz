@@ -969,12 +969,23 @@
             return positions;
         }
 
+        const MAX_BUILDINGS = 500;
+
         function createCity(data) {
             const files = data.files;
             if (!files.length) return;
 
-            const codeFiles = files.filter(f => !isTestFile(f.path)).sort((a, b) => (b.commits || 1) - (a.commits || 1));
-            const testFiles = files.filter(f => isTestFile(f.path)).sort((a, b) => (b.commits || 1) - (a.commits || 1));
+            let codeFiles = files.filter(f => !isTestFile(f.path)).sort((a, b) => (b.commits || 1) - (a.commits || 1));
+            let testFiles = files.filter(f => isTestFile(f.path)).sort((a, b) => (b.commits || 1) - (a.commits || 1));
+            const totalFiles = codeFiles.length + testFiles.length;
+            if (totalFiles > MAX_BUILDINGS) {
+                const codeRatio = codeFiles.length / totalFiles;
+                const maxCode = Math.floor(MAX_BUILDINGS * codeRatio);
+                const maxTest = MAX_BUILDINGS - maxCode;
+                codeFiles = codeFiles.slice(0, maxCode);
+                testFiles = testFiles.slice(0, maxTest);
+                console.log(`Limited to ${MAX_BUILDINGS} buildings (${codeFiles.length} code, ${testFiles.length} test) from ${totalFiles} total files`);
+            }
             const maxCommits = Math.max(...files.map(f => f.commits || 1));
             const maxBugs = Math.max(...files.map(f => f.bugs || 0), 1);
             const spacing = 1.5;
@@ -1123,7 +1134,11 @@
 
         function updateInfo(data) {
             document.getElementById('repo-name').textContent = data.repo_url;
-            document.getElementById('stats').textContent = `${data.total_files} files | ${data.total_loc.toLocaleString()} LOC | ${data.total_commits || 0} changes`;
+            let statsText = `${data.total_files} files | ${data.total_loc.toLocaleString()} LOC | ${data.total_commits || 0} changes`;
+            if (data.total_files > MAX_BUILDINGS) {
+                statsText += ` (showing top ${MAX_BUILDINGS})`;
+            }
+            document.getElementById('stats').textContent = statsText;
         }
 
         function updateLegend(data) {
