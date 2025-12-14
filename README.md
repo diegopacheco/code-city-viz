@@ -2,6 +2,8 @@
 
 By Diego Pacheco
 
+<img src="logo.png" width="400"/>
+
 ## How it works?
 
 It clones a github project and analize size and number of commits on the file and the buid a 3D city where:
