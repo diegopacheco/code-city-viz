@@ -8,7 +8,7 @@ By Diego Pacheco
 
 Using: https://github.com/google/gson
 
-<img src="code-city-result-google-gson.png" width="800"/>
+<img src="result.codecityviz.png" width="800"/>
 
 ## How it works?
 
