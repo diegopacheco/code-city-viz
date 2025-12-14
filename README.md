@@ -36,3 +36,5 @@ It clones a github project and analize size and number of commits on the file an
 8. Select other cities(local files: org_repo.json) pre-analyzed.
 9. Double click on the building to open the file on github.
 10. FPS display on the right botton corner.
+11. For fun effects like rain and snow.
+12. Code Smell filter, add more or less smoke to a building.

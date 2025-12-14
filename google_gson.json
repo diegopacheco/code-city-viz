@@ -15,7 +15,15 @@
       "loc": 1543,
       "commits": 240,
       "bugs": 94,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": true,
+        "long_functions": 5,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 74
     },
     {
       "path": "gson/src/main/java/com/google/gson/GsonBuilder.java",
@@ -24,7 +32,15 @@
       "loc": 957,
       "commits": 142,
       "bugs": 64,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": true,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 57
     },
     {
       "path": "gson/src/main/java/com/google/gson/stream/JsonReader.java",
@@ -33,7 +49,15 @@
       "loc": 1881,
       "commits": 101,
       "bugs": 54,
-      "directory": "gson/src/main/java/com/google/gson/stream"
+      "directory": "gson/src/main/java/com/google/gson/stream",
+      "smells": {
+        "long_file": true,
+        "long_functions": 8,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 86
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java",
@@ -42,7 +66,15 @@
       "loc": 936,
       "commits": 86,
       "bugs": 31,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 63
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/MapTest.java",
@@ -51,7 +83,15 @@
       "loc": 775,
       "commits": 68,
       "bugs": 35,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 70
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java",
@@ -60,7 +100,15 @@
       "loc": 853,
       "commits": 67,
       "bugs": 41,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 65
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ObjectTest.java",
@@ -69,7 +117,15 @@
       "loc": 776,
       "commits": 61,
       "bugs": 38,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 60
     },
     {
       "path": "gson/src/test/java/com/google/gson/stream/JsonReaderTest.java",
@@ -78,7 +134,15 @@
       "loc": 2191,
       "commits": 60,
       "bugs": 33,
-      "directory": "gson/src/test/java/com/google/gson/stream"
+      "directory": "gson/src/test/java/com/google/gson/stream",
+      "smells": {
+        "long_file": true,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 72
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java",
@@ -87,7 +151,15 @@
       "loc": 670,
       "commits": 60,
       "bugs": 29,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": true,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 59
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonObject.java",
@@ -96,7 +168,15 @@
       "loc": 259,
       "commits": 57,
       "bugs": 20,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 17
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonPrimitive.java",
@@ -105,7 +185,15 @@
       "loc": 328,
       "commits": 54,
       "bugs": 19,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 17
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/PrimitiveTest.java",
@@ -114,7 +202,15 @@
       "loc": 972,
       "commits": 50,
       "bugs": 24,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 59
     },
     {
       "path": "gson/src/main/java/com/google/gson/stream/JsonWriter.java",
@@ -123,7 +219,15 @@
       "loc": 836,
       "commits": 50,
       "bugs": 35,
-      "directory": "gson/src/main/java/com/google/gson/stream"
+      "directory": "gson/src/main/java/com/google/gson/stream",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 55
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonArray.java",
@@ -132,7 +236,15 @@
       "loc": 436,
       "commits": 46,
       "bugs": 23,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonParser.java",
@@ -141,7 +253,15 @@
       "loc": 178,
       "commits": 42,
       "bugs": 17,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 20
     },
     {
       "path": "gson/src/main/java/com/google/gson/FieldAttributes.java",
@@ -150,7 +270,15 @@
       "loc": 149,
       "commits": 39,
       "bugs": 12,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 15
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/CollectionTest.java",
@@ -159,7 +287,15 @@
       "loc": 504,
       "commits": 38,
       "bugs": 19,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 55
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/ConstructorConstructor.java",
@@ -168,7 +304,15 @@
       "loc": 465,
       "commits": 38,
       "bugs": 23,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 2,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 55
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/CustomTypeAdaptersTest.java",
@@ -177,7 +321,15 @@
       "loc": 519,
       "commits": 36,
       "bugs": 18,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 60
     },
     {
       "path": "gson/src/main/java/com/google/gson/TypeAdapter.java",
@@ -186,7 +338,15 @@
       "loc": 322,
       "commits": 35,
       "bugs": 16,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 22
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonElement.java",
@@ -195,7 +355,15 @@
       "loc": 434,
       "commits": 34,
       "bugs": 16,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonObjectTest.java",
@@ -204,7 +372,15 @@
       "loc": 358,
       "commits": 32,
       "bugs": 18,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 38
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/NamingPolicyTest.java",
@@ -213,7 +389,15 @@
       "loc": 362,
       "commits": 32,
       "bugs": 18,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 33
     },
     {
       "path": "gson/src/main/java/com/google/gson/reflect/TypeToken.java",
@@ -222,7 +406,15 @@
       "loc": 452,
       "commits": 31,
       "bugs": 16,
-      "directory": "gson/src/main/java/com/google/gson/reflect"
+      "directory": "gson/src/main/java/com/google/gson/reflect",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java",
@@ -231,7 +423,15 @@
       "loc": 281,
       "commits": 31,
       "bugs": 12,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 19
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/NullObjectAndFieldTest.java",
@@ -240,7 +440,15 @@
       "loc": 257,
       "commits": 29,
       "bugs": 15,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonNull.java",
@@ -249,7 +457,15 @@
       "loc": 65,
       "commits": 28,
       "bugs": 9,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 16
     },
     {
       "path": "extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java",
@@ -258,7 +474,15 @@
       "loc": 331,
       "commits": 28,
       "bugs": 16,
-      "directory": "extras/src/main/java/com/google/gson/typeadapters"
+      "directory": "extras/src/main/java/com/google/gson/typeadapters",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 28
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/EnumTest.java",
@@ -267,7 +491,15 @@
       "loc": 322,
       "commits": 27,
       "bugs": 16,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 29
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ArrayTest.java",
@@ -276,7 +508,15 @@
       "loc": 297,
       "commits": 27,
       "bugs": 19,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java",
@@ -285,7 +525,15 @@
       "loc": 112,
       "commits": 27,
       "bugs": 10,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 18
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonArrayTest.java",
@@ -294,7 +542,15 @@
       "loc": 357,
       "commits": 26,
       "bugs": 18,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ParameterizedTypesTest.java",
@@ -303,7 +559,15 @@
       "loc": 551,
       "commits": 26,
       "bugs": 16,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 65
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonPrimitiveTest.java",
@@ -312,7 +576,15 @@
       "loc": 367,
       "commits": 25,
       "bugs": 15,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonParserTest.java",
@@ -321,7 +593,15 @@
       "loc": 198,
       "commits": 25,
       "bugs": 12,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 24
     },
     {
       "path": "gson/src/test/java/com/google/gson/stream/JsonWriterTest.java",
@@ -330,7 +610,15 @@
       "loc": 991,
       "commits": 25,
       "bugs": 19,
-      "directory": "gson/src/test/java/com/google/gson/stream"
+      "directory": "gson/src/test/java/com/google/gson/stream",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 65
     },
     {
       "path": "gson/src/test/java/com/google/gson/reflect/TypeTokenTest.java",
@@ -339,7 +627,15 @@
       "loc": 471,
       "commits": 25,
       "bugs": 21,
-      "directory": "gson/src/test/java/com/google/gson/reflect"
+      "directory": "gson/src/test/java/com/google/gson/reflect",
+      "smells": {
+        "long_file": false,
+        "long_functions": 2,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 55
     },
     {
       "path": "proto/src/main/java/com/google/gson/protobuf/ProtoTypeAdapter.java",
@@ -348,7 +644,15 @@
       "loc": 451,
       "commits": 25,
       "bugs": 16,
-      "directory": "proto/src/main/java/com/google/gson/protobuf"
+      "directory": "proto/src/main/java/com/google/gson/protobuf",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 45
     },
     {
       "path": "gson/src/test/java/com/google/gson/GsonTest.java",
@@ -357,7 +661,15 @@
       "loc": 677,
       "commits": 24,
       "bugs": 23,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 3,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 70
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnClassesTest.java",
@@ -366,7 +678,15 @@
       "loc": 806,
       "commits": 24,
       "bugs": 15,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 60
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java",
@@ -375,7 +695,15 @@
       "loc": 204,
       "commits": 24,
       "bugs": 12,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/test/java/com/google/gson/GsonBuilderTest.java",
@@ -384,7 +712,15 @@
       "loc": 432,
       "commits": 23,
       "bugs": 17,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/metrics/PerformanceTest.java",
@@ -393,7 +729,15 @@
       "loc": 368,
       "commits": 23,
       "bugs": 11,
-      "directory": "gson/src/test/java/com/google/gson/metrics"
+      "directory": "gson/src/test/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java",
@@ -402,7 +746,15 @@
       "loc": 222,
       "commits": 23,
       "bugs": 14,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java",
@@ -411,7 +763,15 @@
       "loc": 687,
       "commits": 23,
       "bugs": 13,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": true,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 63
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/Streams.java",
@@ -420,7 +780,15 @@
       "loc": 169,
       "commits": 22,
       "bugs": 12,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 27
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java",
@@ -429,7 +797,15 @@
       "loc": 186,
       "commits": 22,
       "bugs": 6,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java",
@@ -438,7 +814,15 @@
       "loc": 391,
       "commits": 22,
       "bugs": 17,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/VersionExclusionStrategyTest.java",
@@ -447,7 +831,15 @@
       "loc": 121,
       "commits": 20,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 15
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java",
@@ -456,7 +848,15 @@
       "loc": 743,
       "commits": 20,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 55
     },
     {
       "path": "gson/src/main/java/com/google/gson/FieldNamingPolicy.java",
@@ -465,7 +865,15 @@
       "loc": 213,
       "commits": 20,
       "bugs": 7,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 17
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonStreamParser.java",
@@ -474,7 +882,15 @@
       "loc": 125,
       "commits": 20,
       "bugs": 9,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 22
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/InstanceCreatorTest.java",
@@ -483,7 +899,15 @@
       "loc": 111,
       "commits": 19,
       "bugs": 12,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ConcurrencyTest.java",
@@ -492,7 +916,15 @@
       "loc": 153,
       "commits": 19,
       "bugs": 15,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/Excluder.java",
@@ -501,7 +933,15 @@
       "loc": 257,
       "commits": 19,
       "bugs": 13,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java",
@@ -510,7 +950,15 @@
       "loc": 105,
       "commits": 19,
       "bugs": 7,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 18
     },
     {
       "path": "gson/src/test/java/com/google/gson/common/TestTypes.java",
@@ -519,7 +967,15 @@
       "loc": 434,
       "commits": 18,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/common"
+      "directory": "gson/src/test/java/com/google/gson/common",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/StreamingTypeAdaptersTest.java",
@@ -528,7 +984,15 @@
       "loc": 287,
       "commits": 18,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 27
     },
     {
       "path": "gson/src/main/java/com/google/gson/ExclusionStrategy.java",
@@ -537,7 +1001,15 @@
       "loc": 111,
       "commits": 18,
       "bugs": 9,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "metrics/src/main/java/com/google/gson/metrics/ParseBenchmark.java",
@@ -546,7 +1018,15 @@
       "loc": 467,
       "commits": 17,
       "bugs": 14,
-      "directory": "metrics/src/main/java/com/google/gson/metrics"
+      "directory": "metrics/src/main/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 50
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/JsonElementReaderTest.java",
@@ -555,7 +1035,15 @@
       "loc": 292,
       "commits": 17,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 29
     },
     {
       "path": "extras/src/main/java/com/google/gson/graph/GraphAdapterBuilder.java",
@@ -564,7 +1052,15 @@
       "loc": 360,
       "commits": 17,
       "bugs": 14,
-      "directory": "extras/src/main/java/com/google/gson/graph"
+      "directory": "extras/src/main/java/com/google/gson/graph",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "gson/src/test/java/com/google/gson/InnerClassExclusionStrategyTest.java",
@@ -573,7 +1069,15 @@
       "loc": 83,
       "commits": 16,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 15
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/GsonTypesTest.java",
@@ -582,7 +1086,15 @@
       "loc": 158,
       "commits": 16,
       "bugs": 13,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ReflectionAccessTest.java",
@@ -591,7 +1103,15 @@
       "loc": 173,
       "commits": 16,
       "bugs": 16,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/CustomDeserializerTest.java",
@@ -600,7 +1120,15 @@
       "loc": 218,
       "commits": 16,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 33
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/PrettyPrintingTest.java",
@@ -609,7 +1137,15 @@
       "loc": 170,
       "commits": 16,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 28
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java",
@@ -618,7 +1154,15 @@
       "loc": 209,
       "commits": 16,
       "bugs": 14,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/annotations/JsonAdapter.java",
@@ -627,7 +1171,15 @@
       "loc": 135,
       "commits": 16,
       "bugs": 6,
-      "directory": "gson/src/main/java/com/google/gson/annotations"
+      "directory": "gson/src/main/java/com/google/gson/annotations",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 18
     },
     {
       "path": "gson/src/test/java/com/google/gson/FieldAttributesTest.java",
@@ -636,7 +1188,15 @@
       "loc": 81,
       "commits": 15,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/test/java/com/google/gson/MixedStreamTest.java",
@@ -645,7 +1205,15 @@
       "loc": 256,
       "commits": 15,
       "bugs": 11,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JsonTreeTest.java",
@@ -654,7 +1222,15 @@
       "loc": 112,
       "commits": 15,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ReadersWritersTest.java",
@@ -663,7 +1239,15 @@
       "loc": 203,
       "commits": 15,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ExposeFieldsTest.java",
@@ -672,7 +1256,15 @@
       "loc": 191,
       "commits": 15,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/InheritanceTest.java",
@@ -681,7 +1273,15 @@
       "loc": 299,
       "commits": 15,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java",
@@ -690,7 +1290,15 @@
       "loc": 103,
       "commits": 15,
       "bugs": 8,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 26
     },
     {
       "path": "gson/src/test/java/com/google/gson/ObjectTypeAdapterTest.java",
@@ -699,7 +1307,15 @@
       "loc": 117,
       "commits": 14,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/JsonTreeWriterTest.java",
@@ -708,7 +1324,15 @@
       "loc": 284,
       "commits": 14,
       "bugs": 12,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/util/ISO8601UtilsTest.java",
@@ -717,7 +1341,15 @@
       "loc": 126,
       "commits": 14,
       "bugs": 14,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind/util"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind/util",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/TypeVariableTest.java",
@@ -726,7 +1358,15 @@
       "loc": 144,
       "commits": 14,
       "bugs": 8,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 28
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ReflectionAccessFilterTest.java",
@@ -735,7 +1375,15 @@
       "loc": 529,
       "commits": 14,
       "bugs": 14,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": true,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 65
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ExclusionStrategyFunctionalTest.java",
@@ -744,7 +1392,15 @@
       "loc": 220,
       "commits": 14,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JsonParserTest.java",
@@ -753,7 +1409,15 @@
       "loc": 142,
       "commits": 14,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/TypeAdapterPrecedenceTest.java",
@@ -762,7 +1426,15 @@
       "loc": 173,
       "commits": 14,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/Java17RecordTest.java",
@@ -771,7 +1443,15 @@
       "loc": 481,
       "commits": 14,
       "bugs": 14,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonDeserializationContext.java",
@@ -780,7 +1460,15 @@
       "loc": 44,
       "commits": 14,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 17
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/reflect/ReflectionHelper.java",
@@ -789,7 +1477,15 @@
       "loc": 325,
       "commits": 14,
       "bugs": 14,
-      "directory": "gson/src/main/java/com/google/gson/internal/reflect"
+      "directory": "gson/src/main/java/com/google/gson/internal/reflect",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/ExposeAnnotationExclusionStrategyTest.java",
@@ -798,7 +1494,15 @@
       "loc": 104,
       "commits": 13,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 19
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java",
@@ -807,7 +1511,15 @@
       "loc": 104,
       "commits": 13,
       "bugs": 13,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/RuntimeTypeAdapterFactoryFunctionalTest.java",
@@ -816,7 +1528,15 @@
       "loc": 229,
       "commits": 13,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/VersioningTest.java",
@@ -825,7 +1545,15 @@
       "loc": 210,
       "commits": 13,
       "bugs": 8,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/MapAsArrayTypeAdapterTest.java",
@@ -834,7 +1562,15 @@
       "loc": 152,
       "commits": 13,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/DelegateTypeAdapterTest.java",
@@ -843,7 +1579,15 @@
       "loc": 96,
       "commits": 13,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/LazilyParsedNumber.java",
@@ -852,7 +1596,15 @@
       "loc": 111,
       "commits": 13,
       "bugs": 6,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 23
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/UnsafeAllocator.java",
@@ -861,7 +1613,15 @@
       "loc": 129,
       "commits": 13,
       "bugs": 9,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "extras/src/test/java/com/google/gson/typeadapters/PostConstructAdapterFactoryTest.java",
@@ -870,7 +1630,15 @@
       "loc": 119,
       "commits": 13,
       "bugs": 12,
-      "directory": "extras/src/test/java/com/google/gson/typeadapters"
+      "directory": "extras/src/test/java/com/google/gson/typeadapters",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/test/java/com/google/gson/GsonTypeAdapterTest.java",
@@ -879,7 +1647,15 @@
       "loc": 168,
       "commits": 12,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/stream/JsonReaderPathTest.java",
@@ -888,7 +1664,15 @@
       "loc": 426,
       "commits": 12,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/stream"
+      "directory": "gson/src/test/java/com/google/gson/stream",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java",
@@ -897,7 +1681,15 @@
       "loc": 202,
       "commits": 12,
       "bugs": 12,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/DefaultDateTypeAdapterTest.java",
@@ -906,7 +1698,15 @@
       "loc": 250,
       "commits": 12,
       "bugs": 11,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/TreeTypeAdaptersTest.java",
@@ -915,7 +1715,15 @@
       "loc": 186,
       "commits": 12,
       "bugs": 11,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/EscapingTest.java",
@@ -924,7 +1732,15 @@
       "loc": 100,
       "commits": 12,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 29
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/TypeHierarchyAdapterTest.java",
@@ -933,7 +1749,15 @@
       "loc": 233,
       "commits": 12,
       "bugs": 8,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 2,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 50
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/StringTest.java",
@@ -942,7 +1766,15 @@
       "loc": 177,
       "commits": 12,
       "bugs": 8,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/FieldNamingStrategy.java",
@@ -951,7 +1783,15 @@
       "loc": 55,
       "commits": 12,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 20
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/DefaultDateTypeAdapter.java",
@@ -960,7 +1800,15 @@
       "loc": 198,
       "commits": 12,
       "bugs": 10,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/JsonTreeWriter.java",
@@ -969,7 +1817,15 @@
       "loc": 254,
       "commits": 12,
       "bugs": 10,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/util/ISO8601Utils.java",
@@ -978,7 +1834,15 @@
       "loc": 386,
       "commits": 12,
       "bugs": 9,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind/util"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind/util",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 1,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 46
     },
     {
       "path": "gson/src/test/java/com/google/gson/DefaultMapJsonSerializerTest.java",
@@ -987,7 +1851,15 @@
       "loc": 69,
       "commits": 11,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 27
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JsonAdapterSerializerDeserializerTest.java",
@@ -996,7 +1868,15 @@
       "loc": 266,
       "commits": 11,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 36
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/CircularReferenceTest.java",
@@ -1005,7 +1885,15 @@
       "loc": 143,
       "commits": 11,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonDeserializer.java",
@@ -1014,7 +1902,15 @@
       "loc": 95,
       "commits": 11,
       "bugs": 8,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonSerializationContext.java",
@@ -1023,7 +1919,15 @@
       "loc": 49,
       "commits": 11,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 13
     },
     {
       "path": "extras/src/test/java/com/google/gson/typeadapters/UtcDateTypeAdapterTest.java",
@@ -1032,7 +1936,15 @@
       "loc": 98,
       "commits": 11,
       "bugs": 7,
-      "directory": "extras/src/test/java/com/google/gson/typeadapters"
+      "directory": "extras/src/test/java/com/google/gson/typeadapters",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "extras/src/main/java/com/google/gson/typeadapters/UtcDateTypeAdapter.java",
@@ -1041,7 +1953,15 @@
       "loc": 281,
       "commits": 11,
       "bugs": 7,
-      "directory": "extras/src/main/java/com/google/gson/typeadapters"
+      "directory": "extras/src/main/java/com/google/gson/typeadapters",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 41
     },
     {
       "path": "gson/src/test/java/com/google/gson/PrimitiveTypeAdapter.java",
@@ -1050,7 +1970,15 @@
       "loc": 63,
       "commits": 10,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonNullTest.java",
@@ -1059,7 +1987,15 @@
       "loc": 51,
       "commits": 10,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 20
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/GsonVersionDiagnosticsTest.java",
@@ -1068,7 +2004,15 @@
       "loc": 98,
       "commits": 10,
       "bugs": 10,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/module-info.java",
@@ -1077,7 +2021,15 @@
       "loc": 36,
       "commits": 10,
       "bugs": 9,
-      "directory": "gson/src/main/java"
+      "directory": "gson/src/main/java",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/annotations/SerializedName.java",
@@ -1086,7 +2038,15 @@
       "loc": 101,
       "commits": 10,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson/annotations"
+      "directory": "gson/src/main/java/com/google/gson/annotations",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "extras/src/test/java/com/google/gson/graph/GraphAdapterBuilderTest.java",
@@ -1095,7 +2055,15 @@
       "loc": 265,
       "commits": 10,
       "bugs": 7,
-      "directory": "extras/src/test/java/com/google/gson/graph"
+      "directory": "extras/src/test/java/com/google/gson/graph",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "metrics/src/main/java/com/google/gson/metrics/CollectionsDeserializationBenchmark.java",
@@ -1104,7 +2072,15 @@
       "loc": 143,
       "commits": 9,
       "bugs": 8,
-      "directory": "metrics/src/main/java/com/google/gson/metrics"
+      "directory": "metrics/src/main/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonArrayAsListTest.java",
@@ -1113,7 +2089,15 @@
       "loc": 314,
       "commits": 9,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonStreamParserTest.java",
@@ -1122,7 +2106,15 @@
       "loc": 105,
       "commits": 9,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 22
     },
     {
       "path": "gson/src/test/java/com/google/gson/TypeAdapterTest.java",
@@ -1131,7 +2123,15 @@
       "loc": 128,
       "commits": 9,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/ToNumberPolicyTest.java",
@@ -1140,7 +2140,15 @@
       "loc": 179,
       "commits": 9,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/ConstructorConstructorTest.java",
@@ -1149,7 +2157,15 @@
       "loc": 271,
       "commits": 9,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/JavaVersionTest.java",
@@ -1158,7 +2174,15 @@
       "loc": 85,
       "commits": 9,
       "bugs": 9,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 31
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/MoreSpecificTypeSerializationTest.java",
@@ -1167,7 +2191,15 @@
       "loc": 192,
       "commits": 9,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/UncategorizedTest.java",
@@ -1176,7 +2208,15 @@
       "loc": 149,
       "commits": 9,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/PrintFormattingTest.java",
@@ -1185,7 +2225,15 @@
       "loc": 87,
       "commits": 9,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 22
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonSerializer.java",
@@ -1194,7 +2242,15 @@
       "loc": 91,
       "commits": 9,
       "bugs": 7,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/annotations/Until.java",
@@ -1203,7 +2259,15 @@
       "loc": 70,
       "commits": 9,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson/annotations"
+      "directory": "gson/src/main/java/com/google/gson/annotations",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 27
     },
     {
       "path": "gson/src/main/java/com/google/gson/annotations/Expose.java",
@@ -1212,7 +2276,15 @@
       "loc": 84,
       "commits": 9,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/annotations"
+      "directory": "gson/src/main/java/com/google/gson/annotations",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 22
     },
     {
       "path": "proto/src/test/java/com/google/gson/protobuf/functional/ProtosWithComplexAndRepeatedFieldsTest.java",
@@ -1221,7 +2293,15 @@
       "loc": 107,
       "commits": 9,
       "bugs": 7,
-      "directory": "proto/src/test/java/com/google/gson/protobuf/functional"
+      "directory": "proto/src/test/java/com/google/gson/protobuf/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "proto/src/test/java/com/google/gson/protobuf/functional/ProtosWithPrimitiveTypesTest.java",
@@ -1230,7 +2310,15 @@
       "loc": 78,
       "commits": 9,
       "bugs": 6,
-      "directory": "proto/src/test/java/com/google/gson/protobuf/functional"
+      "directory": "proto/src/test/java/com/google/gson/protobuf/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/test/java/com/google/gson/GenericArrayTypeTest.java",
@@ -1239,7 +2327,15 @@
       "loc": 60,
       "commits": 8,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/ParameterizedTypeFixtures.java",
@@ -1248,7 +2344,15 @@
       "loc": 162,
       "commits": 8,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/FieldNamingPolicyTest.java",
@@ -1257,7 +2361,15 @@
       "loc": 151,
       "commits": 8,
       "bugs": 8,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/OverrideCoreTypeAdaptersTest.java",
@@ -1266,7 +2378,15 @@
       "loc": 86,
       "commits": 8,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/ParameterizedTypeTest.java",
@@ -1275,7 +2395,15 @@
       "loc": 59,
       "commits": 8,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/UnsafeAllocatorInstantiationTest.java",
@@ -1284,7 +2412,15 @@
       "loc": 64,
       "commits": 8,
       "bugs": 8,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/CustomSerializerTest.java",
@@ -1293,7 +2429,15 @@
       "loc": 104,
       "commits": 8,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/FieldExclusionTest.java",
@@ -1302,7 +2446,15 @@
       "loc": 98,
       "commits": 8,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/FieldNamingTest.java",
@@ -1311,7 +2463,15 @@
       "loc": 114,
       "commits": 8,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/stream/MalformedJsonException.java",
@@ -1320,7 +2480,15 @@
       "loc": 40,
       "commits": 8,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/stream"
+      "directory": "gson/src/main/java/com/google/gson/stream",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "proto/src/test/java/com/google/gson/protobuf/functional/ProtosWithAnnotationsTest.java",
@@ -1329,7 +2497,15 @@
       "loc": 243,
       "commits": 8,
       "bugs": 6,
-      "directory": "proto/src/test/java/com/google/gson/protobuf/functional"
+      "directory": "proto/src/test/java/com/google/gson/protobuf/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 50
     },
     {
       "path": "extras/src/test/java/com/google/gson/interceptors/InterceptorTest.java",
@@ -1338,7 +2514,15 @@
       "loc": 200,
       "commits": 8,
       "bugs": 7,
-      "directory": "extras/src/test/java/com/google/gson/interceptors"
+      "directory": "extras/src/test/java/com/google/gson/interceptors",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "extras/src/test/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactoryTest.java",
@@ -1347,7 +2531,15 @@
       "loc": 244,
       "commits": 8,
       "bugs": 6,
-      "directory": "extras/src/test/java/com/google/gson/typeadapters"
+      "directory": "extras/src/test/java/com/google/gson/typeadapters",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/sql/SqlTypesGsonTest.java",
@@ -1356,7 +2548,15 @@
       "loc": 148,
       "commits": 7,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/internal/sql"
+      "directory": "gson/src/test/java/com/google/gson/internal/sql",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/common/MoreAsserts.java",
@@ -1365,7 +2565,15 @@
       "loc": 109,
       "commits": 7,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson/common"
+      "directory": "gson/src/test/java/com/google/gson/common",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 28
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/InternationalizationTest.java",
@@ -1374,7 +2582,15 @@
       "loc": 83,
       "commits": 7,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ToNumberPolicyFunctionalTest.java",
@@ -1383,7 +2599,15 @@
       "loc": 148,
       "commits": 7,
       "bugs": 7,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/SecurityTest.java",
@@ -1392,7 +2616,15 @@
       "loc": 102,
       "commits": 7,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/RawSerializationTest.java",
@@ -1401,7 +2633,15 @@
       "loc": 108,
       "commits": 7,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 28
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/EnumWithObfuscatedTest.java",
@@ -1410,7 +2650,15 @@
       "loc": 60,
       "commits": 7,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/ToNumberPolicy.java",
@@ -1419,7 +2667,15 @@
       "loc": 113,
       "commits": 7,
       "bugs": 7,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/TypeAdapterFactory.java",
@@ -1428,7 +2684,15 @@
       "loc": 170,
       "commits": 7,
       "bugs": 6,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/stream/JsonScope.java",
@@ -1437,7 +2701,15 @@
       "loc": 51,
       "commits": 7,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/stream"
+      "directory": "gson/src/main/java/com/google/gson/stream",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 28
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/JavaVersion.java",
@@ -1446,7 +2718,15 @@
       "loc": 97,
       "commits": 7,
       "bugs": 7,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/Primitives.java",
@@ -1455,7 +2735,15 @@
       "loc": 100,
       "commits": 7,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 21
     },
     {
       "path": "gson/src/main/java/com/google/gson/annotations/Since.java",
@@ -1464,7 +2752,15 @@
       "loc": 65,
       "commits": 7,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/annotations"
+      "directory": "gson/src/main/java/com/google/gson/annotations",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 21
     },
     {
       "path": "metrics/src/main/java/com/google/gson/metrics/BagOfPrimitivesDeserializationBenchmark.java",
@@ -1473,7 +2769,15 @@
       "loc": 122,
       "commits": 6,
       "bugs": 5,
-      "directory": "metrics/src/main/java/com/google/gson/metrics"
+      "directory": "metrics/src/main/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "metrics/src/main/java/com/google/gson/metrics/BagOfPrimitives.java",
@@ -1482,7 +2786,15 @@
       "loc": 96,
       "commits": 6,
       "bugs": 5,
-      "directory": "metrics/src/main/java/com/google/gson/metrics"
+      "directory": "metrics/src/main/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/LongSerializationPolicyTest.java",
@@ -1491,7 +2803,15 @@
       "loc": 86,
       "commits": 6,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonObjectAsMapTest.java",
@@ -1500,7 +2820,15 @@
       "loc": 278,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/DefaultInetAddressTypeAdapterTest.java",
@@ -1509,7 +2837,15 @@
       "loc": 48,
       "commits": 6,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/LazilyParsedNumberTest.java",
@@ -1518,7 +2854,15 @@
       "loc": 54,
       "commits": 6,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/bind/Java17ReflectiveTypeAdapterFactoryTest.java",
@@ -1527,7 +2871,15 @@
       "loc": 98,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/internal/bind"
+      "directory": "gson/src/test/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/TypeAdapterRuntimeTypeWrapperTest.java",
@@ -1536,7 +2888,15 @@
       "loc": 205,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/FormattingStyleTest.java",
@@ -1545,7 +2905,15 @@
       "loc": 205,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 31
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/LeniencyTest.java",
@@ -1554,7 +2922,15 @@
       "loc": 49,
       "commits": 6,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/ReusedTypeVariablesFullyResolveTest.java",
@@ -1563,7 +2939,15 @@
       "loc": 73,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/LongSerializationPolicy.java",
@@ -1572,7 +2956,15 @@
       "loc": 67,
       "commits": 6,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/main/java/com/google/gson/FormattingStyle.java",
@@ -1581,7 +2973,15 @@
       "loc": 156,
       "commits": 6,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/InstanceCreator.java",
@@ -1590,7 +2990,15 @@
       "loc": 93,
       "commits": 6,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/NonNullElementWrapperList.java",
@@ -1599,7 +3007,15 @@
       "loc": 132,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/ReflectionAccessFilterHelper.java",
@@ -1608,7 +3024,15 @@
       "loc": 121,
       "commits": 6,
       "bugs": 6,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 36
     },
     {
       "path": "extras/src/main/java/com/google/gson/interceptors/InterceptorFactory.java",
@@ -1617,7 +3041,15 @@
       "loc": 66,
       "commits": 6,
       "bugs": 5,
-      "directory": "extras/src/main/java/com/google/gson/interceptors"
+      "directory": "extras/src/main/java/com/google/gson/interceptors",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "extras/src/main/java/com/google/gson/extras/examples/rawcollections/RawCollectionsExample.java",
@@ -1626,7 +3058,15 @@
       "loc": 56,
       "commits": 6,
       "bugs": 5,
-      "directory": "extras/src/main/java/com/google/gson/extras/examples/rawcollections"
+      "directory": "extras/src/main/java/com/google/gson/extras/examples/rawcollections",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JavaSerializationTest.java",
@@ -1635,7 +3075,15 @@
       "loc": 78,
       "commits": 5,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonParserParameterizedTest.java",
@@ -1644,7 +3092,15 @@
       "loc": 55,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 31
     },
     {
       "path": "gson/src/test/java/com/google/gson/CommentsTest.java",
@@ -1653,7 +3109,15 @@
       "loc": 48,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/integration/OSGiManifestIT.java",
@@ -1662,7 +3126,15 @@
       "loc": 241,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/integration"
+      "directory": "gson/src/test/java/com/google/gson/integration",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/StreamsTest.java",
@@ -1671,7 +3143,15 @@
       "loc": 114,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/reflect/Java17ReflectionHelperTest.java",
@@ -1680,7 +3160,15 @@
       "loc": 94,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/test/java/com/google/gson/internal/reflect"
+      "directory": "gson/src/test/java/com/google/gson/internal/reflect",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/InterfaceTest.java",
@@ -1689,7 +3177,15 @@
       "loc": 75,
       "commits": 5,
       "bugs": 3,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JavaUtilTest.java",
@@ -1698,7 +3194,15 @@
       "loc": 62,
       "commits": 5,
       "bugs": 3,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/SerializedNameTest.java",
@@ -1707,7 +3211,15 @@
       "loc": 65,
       "commits": 5,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/ToNumberStrategy.java",
@@ -1716,7 +3228,15 @@
       "loc": 70,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/ReflectionAccessFilter.java",
@@ -1725,7 +3245,15 @@
       "loc": 228,
       "commits": 5,
       "bugs": 5,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonIOException.java",
@@ -1734,7 +3262,15 @@
       "loc": 45,
       "commits": 5,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonSyntaxException.java",
@@ -1743,7 +3279,15 @@
       "loc": 45,
       "commits": 5,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/JsonParseException.java",
@@ -1752,7 +3296,15 @@
       "loc": 64,
       "commits": 5,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/sql/SqlTimeTypeAdapter.java",
@@ -1761,7 +3313,15 @@
       "loc": 90,
       "commits": 5,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal/sql"
+      "directory": "gson/src/main/java/com/google/gson/internal/sql",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/sql/SqlDateTypeAdapter.java",
@@ -1770,7 +3330,15 @@
       "loc": 89,
       "commits": 5,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal/sql"
+      "directory": "gson/src/main/java/com/google/gson/internal/sql",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/sql/SqlTimestampTypeAdapter.java",
@@ -1779,7 +3347,15 @@
       "loc": 61,
       "commits": 5,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal/sql"
+      "directory": "gson/src/main/java/com/google/gson/internal/sql",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "extras/src/main/java/com/google/gson/typeadapters/PostConstructAdapterFactory.java",
@@ -1788,7 +3364,15 @@
       "loc": 80,
       "commits": 5,
       "bugs": 4,
-      "directory": "extras/src/main/java/com/google/gson/typeadapters"
+      "directory": "extras/src/main/java/com/google/gson/typeadapters",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "metrics/src/main/java/com/google/gson/metrics/SerializationBenchmark.java",
@@ -1797,7 +3381,15 @@
       "loc": 51,
       "commits": 4,
       "bugs": 3,
-      "directory": "metrics/src/main/java/com/google/gson/metrics"
+      "directory": "metrics/src/main/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "metrics/src/main/java/com/google/gson/metrics/NonUploadingCaliperRunner.java",
@@ -1806,7 +3398,15 @@
       "loc": 40,
       "commits": 4,
       "bugs": 4,
-      "directory": "metrics/src/main/java/com/google/gson/metrics"
+      "directory": "metrics/src/main/java/com/google/gson/metrics",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/ObjectTypeAdapterParameterizedTest.java",
@@ -1815,7 +3415,15 @@
       "loc": 55,
       "commits": 4,
       "bugs": 4,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": false
+      },
+      "smell_score": 31
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/sql/SqlTypesSupportTest.java",
@@ -1824,7 +3432,15 @@
       "loc": 35,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/test/java/com/google/gson/internal/sql"
+      "directory": "gson/src/test/java/com/google/gson/internal/sql",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/JavaUtilConcurrentAtomicTest.java",
@@ -1833,7 +3449,15 @@
       "loc": 116,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/Strictness.java",
@@ -1842,7 +3466,15 @@
       "loc": 29,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/package-info.java",
@@ -1851,7 +3483,15 @@
       "loc": 28,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson"
+      "directory": "gson/src/main/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/stream/JsonToken.java",
@@ -1860,7 +3500,15 @@
       "loc": 76,
       "commits": 4,
       "bugs": 2,
-      "directory": "gson/src/main/java/com/google/gson/stream"
+      "directory": "gson/src/main/java/com/google/gson/stream",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "gson/src/main/java/com/google/gson/stream/package-info.java",
@@ -1869,7 +3517,15 @@
       "loc": 19,
       "commits": 4,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/stream"
+      "directory": "gson/src/main/java/com/google/gson/stream",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/reflect/package-info.java",
@@ -1878,7 +3534,15 @@
       "loc": 23,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/reflect"
+      "directory": "gson/src/main/java/com/google/gson/reflect",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/PreJava9DateFormatProvider.java",
@@ -1887,7 +3551,15 @@
       "loc": 64,
       "commits": 4,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/GsonTypes.java",
@@ -1896,7 +3568,15 @@
       "loc": 696,
       "commits": 4,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": true,
+        "long_functions": 2,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 80
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/package-info.java",
@@ -1905,7 +3585,15 @@
       "loc": 24,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/EnumTypeAdapter.java",
@@ -1914,7 +3602,15 @@
       "loc": 116,
       "commits": 4,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/NumberTypeAdapter.java",
@@ -1923,7 +3619,15 @@
       "loc": 82,
       "commits": 4,
       "bugs": 4,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/sql/SqlTypesSupport.java",
@@ -1932,7 +3636,15 @@
       "loc": 85,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal/sql"
+      "directory": "gson/src/main/java/com/google/gson/internal/sql",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/annotations/package-info.java",
@@ -1941,7 +3653,15 @@
       "loc": 23,
       "commits": 4,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/annotations"
+      "directory": "gson/src/main/java/com/google/gson/annotations",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/LinkedTreeMapSuiteTest.java",
@@ -1950,7 +3670,15 @@
       "loc": 84,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/PrimitiveCharacterTest.java",
@@ -1959,7 +3687,15 @@
       "loc": 58,
       "commits": 3,
       "bugs": 2,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/functional/NumberLimitsTest.java",
@@ -1968,7 +3704,15 @@
       "loc": 228,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/test/java/com/google/gson/functional"
+      "directory": "gson/src/test/java/com/google/gson/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/ObjectConstructor.java",
@@ -1977,7 +3721,15 @@
       "loc": 31,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/TroubleshootingGuide.java",
@@ -1986,7 +3738,15 @@
       "loc": 10,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/JsonReaderInternalAccess.java",
@@ -1995,7 +3755,15 @@
       "loc": 31,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/JsonElementTypeAdapter.java",
@@ -2004,7 +3772,15 @@
       "loc": 171,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 40
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/bind/SerializationDelegatingTypeAdapter.java",
@@ -2013,7 +3789,15 @@
       "loc": 28,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/main/java/com/google/gson/internal/bind"
+      "directory": "gson/src/main/java/com/google/gson/internal/bind",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java-templates/com/google/gson/internal/GsonBuildConfig.java",
@@ -2022,7 +3806,15 @@
       "loc": 32,
       "commits": 3,
       "bugs": 3,
-      "directory": "gson/src/main/java-templates/com/google/gson/internal"
+      "directory": "gson/src/main/java-templates/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/test/java/com/google/gson/it/ShrinkingIT.java",
@@ -2031,7 +3823,15 @@
       "loc": 327,
       "commits": 3,
       "bugs": 3,
-      "directory": "test-shrinker/src/test/java/com/google/gson/it"
+      "directory": "test-shrinker/src/test/java/com/google/gson/it",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 50
     },
     {
       "path": "extras/src/main/java/com/google/gson/interceptors/Intercept.java",
@@ -2040,7 +3840,15 @@
       "loc": 64,
       "commits": 3,
       "bugs": 2,
-      "directory": "extras/src/main/java/com/google/gson/interceptors"
+      "directory": "extras/src/main/java/com/google/gson/interceptors",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonObjectAsMapSuiteTest.java",
@@ -2049,7 +3857,15 @@
       "loc": 88,
       "commits": 2,
       "bugs": 2,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/JsonArrayAsListSuiteTest.java",
@@ -2058,7 +3874,15 @@
       "loc": 70,
       "commits": 2,
       "bugs": 2,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/test/java/com/google/gson/internal/GsonBuildConfigTest.java",
@@ -2067,7 +3891,15 @@
       "loc": 33,
       "commits": 2,
       "bugs": 2,
-      "directory": "gson/src/test/java/com/google/gson/internal"
+      "directory": "gson/src/test/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "gson/src/main/java/com/google/gson/internal/NumberLimits.java",
@@ -2076,7 +3908,15 @@
       "loc": 36,
       "commits": 2,
       "bugs": 2,
-      "directory": "gson/src/main/java/com/google/gson/internal"
+      "directory": "gson/src/main/java/com/google/gson/internal",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-jpms/src/test/java/com/google/gson/jpms_test/ExportedPackagesTest.java",
@@ -2085,7 +3925,15 @@
       "loc": 101,
       "commits": 2,
       "bugs": 2,
-      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test"
+      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/Main.java",
@@ -2094,7 +3942,15 @@
       "loc": 316,
       "commits": 2,
       "bugs": 2,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "extras/src/main/java/com/google/gson/interceptors/JsonPostDeserializer.java",
@@ -2103,7 +3959,15 @@
       "loc": 31,
       "commits": 2,
       "bugs": 1,
-      "directory": "extras/src/main/java/com/google/gson/interceptors"
+      "directory": "extras/src/main/java/com/google/gson/interceptors",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 25
     },
     {
       "path": "gson/src/test/java/com/google/gson/SubsetTest.java",
@@ -2112,7 +3976,15 @@
       "loc": 30,
       "commits": 1,
       "bugs": 1,
-      "directory": "gson/src/test/java/com/google/gson"
+      "directory": "gson/src/test/java/com/google/gson",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "proto/src/test/java/com/google/gson/protobuf/functional/ProtosWithAnnotationsAndJsonNamesTest.java",
@@ -2121,7 +3993,15 @@
       "loc": 202,
       "commits": 1,
       "bugs": 1,
-      "directory": "proto/src/test/java/com/google/gson/protobuf/functional"
+      "directory": "proto/src/test/java/com/google/gson/protobuf/functional",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-graal-native-image/src/test/java/com/google/gson/native_test/Java17RecordReflectionTest.java",
@@ -2130,7 +4010,15 @@
       "loc": 182,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-graal-native-image/src/test/java/com/google/gson/native_test"
+      "directory": "test-graal-native-image/src/test/java/com/google/gson/native_test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "test-graal-native-image/src/test/java/com/google/gson/native_test/ReflectionTest.java",
@@ -2139,7 +4027,15 @@
       "loc": 273,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-graal-native-image/src/test/java/com/google/gson/native_test"
+      "directory": "test-graal-native-image/src/test/java/com/google/gson/native_test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "test-jpms/src/test/java/module-info.java",
@@ -2148,7 +4044,15 @@
       "loc": 30,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-jpms/src/test/java"
+      "directory": "test-jpms/src/test/java",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-jpms/src/test/java/com/google/gson/jpms_test/ReflectionInaccessibleTest.java",
@@ -2157,7 +4061,15 @@
       "loc": 66,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test"
+      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 2,
+        "low_comments": false
+      },
+      "smell_score": 32
     },
     {
       "path": "test-jpms/src/test/java/com/google/gson/jpms_test/ModuleTest.java",
@@ -2166,7 +4078,15 @@
       "loc": 114,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test"
+      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 35
     },
     {
       "path": "test-jpms/src/test/java/com/google/gson/jpms_test/opened/ReflectionTest.java",
@@ -2175,7 +4095,15 @@
       "loc": 50,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test/opened"
+      "directory": "test-jpms/src/test/java/com/google/gson/jpms_test/opened",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-jpms/src/main/java/module-info.java",
@@ -2184,7 +4112,15 @@
       "loc": 27,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-jpms/src/main/java"
+      "directory": "test-jpms/src/main/java",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithUnreferencedNoArgsConstructor.java",
@@ -2193,7 +4129,15 @@
       "loc": 17,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithAdapter.java",
@@ -2202,7 +4146,15 @@
       "loc": 44,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithUnreferencedHasArgsConstructor.java",
@@ -2211,7 +4163,15 @@
       "loc": 18,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithNamedFields.java",
@@ -2220,7 +4180,15 @@
       "loc": 10,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithVersionAnnotations.java",
@@ -2229,7 +4197,15 @@
       "loc": 19,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/TestExecutor.java",
@@ -2238,7 +4214,15 @@
       "loc": 36,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithNoArgsConstructor.java",
@@ -2247,7 +4231,15 @@
       "loc": 13,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithSerializedName.java",
@@ -2256,7 +4248,15 @@
       "loc": 15,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/InterfaceWithImplementation.java",
@@ -2265,7 +4265,15 @@
       "loc": 21,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/NoSerializedNameMain.java",
@@ -2274,7 +4282,15 @@
       "loc": 59,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithHasArgsConstructor.java",
@@ -2283,7 +4299,15 @@
       "loc": 14,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/UnusedClass.java",
@@ -2292,7 +4316,15 @@
       "loc": 16,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithExposeAnnotation.java",
@@ -2301,7 +4333,15 @@
       "loc": 10,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/EnumClassWithSerializedName.java",
@@ -2310,7 +4350,15 @@
       "loc": 10,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/GenericClasses.java",
@@ -2319,7 +4367,15 @@
       "loc": 68,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
     },
     {
       "path": "test-shrinker/src/main/java/com/example/ClassWithJsonAdapterAnnotation.java",
@@ -2328,7 +4384,15 @@
       "loc": 137,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     },
     {
       "path": "test-shrinker/src/main/java/com/example/EnumClass.java",
@@ -2337,7 +4401,15 @@
       "loc": 6,
       "commits": 1,
       "bugs": 1,
-      "directory": "test-shrinker/src/main/java/com/example"
+      "directory": "test-shrinker/src/main/java/com/example",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 30
     }
   ]
 }
