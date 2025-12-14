@@ -1,0 +1,3180 @@
+{
+  "repo_url": "https://github.com/honojs/hono",
+  "org": "honojs",
+  "repo": "hono",
+  "total_files": 352,
+  "total_loc": 68798,
+  "total_commits": 4244,
+  "total_bugs": 4162,
+  "files_with_bugs": 349,
+  "files": [
+    {
+      "path": "src/context.ts",
+      "name": "context.ts",
+      "extension": ".ts",
+      "loc": 770,
+      "commits": 223,
+      "bugs": 217,
+      "directory": "src"
+    },
+    {
+      "path": "src/hono.ts",
+      "name": "hono.ts",
+      "extension": ".ts",
+      "loc": 34,
+      "commits": 163,
+      "bugs": 150,
+      "directory": "src"
+    },
+    {
+      "path": "src/hono.test.ts",
+      "name": "hono.test.ts",
+      "extension": ".ts",
+      "loc": 3673,
+      "commits": 145,
+      "bugs": 139,
+      "directory": "src"
+    },
+    {
+      "path": "src/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 2480,
+      "commits": 124,
+      "bugs": 124,
+      "directory": "src"
+    },
+    {
+      "path": "src/hono-base.ts",
+      "name": "hono-base.ts",
+      "extension": ".ts",
+      "loc": 539,
+      "commits": 97,
+      "bugs": 97,
+      "directory": "src"
+    },
+    {
+      "path": "src/request.ts",
+      "name": "request.ts",
+      "extension": ".ts",
+      "loc": 487,
+      "commits": 82,
+      "bugs": 81,
+      "directory": "src"
+    },
+    {
+      "path": "src/types.test.ts",
+      "name": "types.test.ts",
+      "extension": ".ts",
+      "loc": 3631,
+      "commits": 72,
+      "bugs": 72,
+      "directory": "src"
+    },
+    {
+      "path": "src/context.test.ts",
+      "name": "context.test.ts",
+      "extension": ".ts",
+      "loc": 597,
+      "commits": 71,
+      "bugs": 70,
+      "directory": "src"
+    },
+    {
+      "path": "src/client/client.test.ts",
+      "name": "client.test.ts",
+      "extension": ".ts",
+      "loc": 1603,
+      "commits": 65,
+      "bugs": 65,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/validator/validator.test.ts",
+      "name": "validator.test.ts",
+      "extension": ".ts",
+      "loc": 1370,
+      "commits": 58,
+      "bugs": 58,
+      "directory": "src/validator"
+    },
+    {
+      "path": "src/utils/url.ts",
+      "name": "url.ts",
+      "extension": ".ts",
+      "loc": 310,
+      "commits": 57,
+      "bugs": 56,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/compose.ts",
+      "name": "compose.ts",
+      "extension": ".ts",
+      "loc": 73,
+      "commits": 56,
+      "bugs": 54,
+      "directory": "src"
+    },
+    {
+      "path": "src/validator/validator.ts",
+      "name": "validator.ts",
+      "extension": ".ts",
+      "loc": 184,
+      "commits": 53,
+      "bugs": 53,
+      "directory": "src/validator"
+    },
+    {
+      "path": "src/router/trie-router/node.ts",
+      "name": "node.ts",
+      "extension": ".ts",
+      "loc": 213,
+      "commits": 49,
+      "bugs": 46,
+      "directory": "src/router/trie-router"
+    },
+    {
+      "path": "src/adapter/aws-lambda/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 680,
+      "commits": 46,
+      "bugs": 46,
+      "directory": "src/adapter/aws-lambda"
+    },
+    {
+      "path": "src/client/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 316,
+      "commits": 46,
+      "bugs": 46,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/router/reg-exp-router/router.ts",
+      "name": "router.ts",
+      "extension": ".ts",
+      "loc": 252,
+      "commits": 44,
+      "bugs": 43,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "src/utils/url.test.ts",
+      "name": "url.test.ts",
+      "extension": ".ts",
+      "loc": 317,
+      "commits": 42,
+      "bugs": 41,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 52,
+      "commits": 40,
+      "bugs": 37,
+      "directory": "src"
+    },
+    {
+      "path": "src/compose.test.ts",
+      "name": "compose.test.ts",
+      "extension": ".ts",
+      "loc": 751,
+      "commits": 38,
+      "bugs": 36,
+      "directory": "src"
+    },
+    {
+      "path": "src/jsx/index.test.tsx",
+      "name": "index.test.tsx",
+      "extension": ".tsx",
+      "loc": 1072,
+      "commits": 38,
+      "bugs": 38,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/render.ts",
+      "name": "render.ts",
+      "extension": ".ts",
+      "loc": 794,
+      "commits": 38,
+      "bugs": 38,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/client/client.ts",
+      "name": "client.ts",
+      "extension": ".ts",
+      "loc": 217,
+      "commits": 36,
+      "bugs": 36,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/jsx/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 114,
+      "commits": 36,
+      "bugs": 36,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/index.test.tsx",
+      "name": "index.test.tsx",
+      "extension": ".tsx",
+      "loc": 2509,
+      "commits": 35,
+      "bugs": 35,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/reg-exp-router/router.test.ts",
+      "name": "router.test.ts",
+      "extension": ".ts",
+      "loc": 141,
+      "commits": 33,
+      "bugs": 32,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "src/utils/body.ts",
+      "name": "body.ts",
+      "extension": ".ts",
+      "loc": 229,
+      "commits": 31,
+      "bugs": 30,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/middleware/jwt/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 30,
+      "bugs": 30,
+      "directory": "src/middleware/jwt"
+    },
+    {
+      "path": "src/utils/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 116,
+      "commits": 30,
+      "bugs": 30,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/middleware/basic-auth/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 128,
+      "commits": 29,
+      "bugs": 28,
+      "directory": "src/middleware/basic-auth"
+    },
+    {
+      "path": "src/middleware/etag/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 124,
+      "commits": 29,
+      "bugs": 29,
+      "directory": "src/middleware/etag"
+    },
+    {
+      "path": "src/helper/factory/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 375,
+      "commits": 28,
+      "bugs": 28,
+      "directory": "src/helper/factory"
+    },
+    {
+      "path": "src/jsx/hooks/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 426,
+      "commits": 28,
+      "bugs": 28,
+      "directory": "src/jsx/hooks"
+    },
+    {
+      "path": "src/router/trie-router/node.test.ts",
+      "name": "node.test.ts",
+      "extension": ".ts",
+      "loc": 806,
+      "commits": 28,
+      "bugs": 27,
+      "directory": "src/router/trie-router"
+    },
+    {
+      "path": "src/middleware/cors/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 160,
+      "commits": 27,
+      "bugs": 25,
+      "directory": "src/middleware/cors"
+    },
+    {
+      "path": "src/utils/jwt/jwt.ts",
+      "name": "jwt.ts",
+      "extension": ".ts",
+      "loc": 242,
+      "commits": 27,
+      "bugs": 25,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/helper/ssg/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 13,
+      "commits": 27,
+      "bugs": 27,
+      "directory": "src/helper/ssg"
+    },
+    {
+      "path": "src/jsx/base.ts",
+      "name": "base.ts",
+      "extension": ".ts",
+      "loc": 442,
+      "commits": 26,
+      "bugs": 26,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/middleware/jsx-renderer/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 159,
+      "commits": 25,
+      "bugs": 25,
+      "directory": "src/middleware/jsx-renderer"
+    },
+    {
+      "path": "src/utils/cookie.ts",
+      "name": "cookie.ts",
+      "extension": ".ts",
+      "loc": 238,
+      "commits": 25,
+      "bugs": 24,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/middleware/logger/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 95,
+      "commits": 24,
+      "bugs": 23,
+      "directory": "src/middleware/logger"
+    },
+    {
+      "path": "src/utils/html.ts",
+      "name": "html.ts",
+      "extension": ".ts",
+      "loc": 182,
+      "commits": 24,
+      "bugs": 23,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/helper/factory/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 434,
+      "commits": 24,
+      "bugs": 24,
+      "directory": "src/helper/factory"
+    },
+    {
+      "path": "src/jsx/streaming.ts",
+      "name": "streaming.ts",
+      "extension": ".ts",
+      "loc": 206,
+      "commits": 24,
+      "bugs": 24,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/middleware/bearer-auth/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 207,
+      "commits": 23,
+      "bugs": 23,
+      "directory": "src/middleware/bearer-auth"
+    },
+    {
+      "path": "src/middleware/serve-static/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 125,
+      "commits": 20,
+      "bugs": 18,
+      "directory": "src/middleware/serve-static"
+    },
+    {
+      "path": "src/middleware/etag/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 317,
+      "commits": 20,
+      "bugs": 20,
+      "directory": "src/middleware/etag"
+    },
+    {
+      "path": "src/adapter/cloudflare-pages/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 123,
+      "commits": 20,
+      "bugs": 20,
+      "directory": "src/adapter/cloudflare-pages"
+    },
+    {
+      "path": "src/jsx/intrinsic-elements.ts",
+      "name": "intrinsic-elements.ts",
+      "extension": ".ts",
+      "loc": 924,
+      "commits": 20,
+      "bugs": 20,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 169,
+      "commits": 20,
+      "bugs": 20,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/middleware/cache/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 152,
+      "commits": 19,
+      "bugs": 19,
+      "directory": "src/middleware/cache"
+    },
+    {
+      "path": "src/utils/crypto.ts",
+      "name": "crypto.ts",
+      "extension": ".ts",
+      "loc": 58,
+      "commits": 19,
+      "bugs": 19,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/jsx/streaming.test.tsx",
+      "name": "streaming.test.tsx",
+      "extension": ".tsx",
+      "loc": 884,
+      "commits": 19,
+      "bugs": 19,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/router/pattern-router/router.ts",
+      "name": "router.ts",
+      "extension": ".ts",
+      "loc": 60,
+      "commits": 19,
+      "bugs": 19,
+      "directory": "src/router/pattern-router"
+    },
+    {
+      "path": "src/request.test.ts",
+      "name": "request.test.ts",
+      "extension": ".ts",
+      "loc": 504,
+      "commits": 18,
+      "bugs": 18,
+      "directory": "src"
+    },
+    {
+      "path": "src/utils/buffer.ts",
+      "name": "buffer.ts",
+      "extension": ".ts",
+      "loc": 65,
+      "commits": 18,
+      "bugs": 18,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/mime.ts",
+      "name": "mime.ts",
+      "extension": ".ts",
+      "loc": 96,
+      "commits": 18,
+      "bugs": 18,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/jwt/jwt.test.ts",
+      "name": "jwt.test.ts",
+      "extension": ".ts",
+      "loc": 933,
+      "commits": 18,
+      "bugs": 15,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/deno/serve-static.ts",
+      "name": "serve-static.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 18,
+      "bugs": 18,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/helper/ssg/ssg.test.tsx",
+      "name": "ssg.test.tsx",
+      "extension": ".tsx",
+      "loc": 1030,
+      "commits": 18,
+      "bugs": 18,
+      "directory": "src/helper/ssg"
+    },
+    {
+      "path": "vitest.config.ts",
+      "name": "vitest.config.ts",
+      "extension": ".ts",
+      "loc": 68,
+      "commits": 17,
+      "bugs": 17,
+      "directory": ""
+    },
+    {
+      "path": "src/middleware/compress/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 79,
+      "commits": 17,
+      "bugs": 17,
+      "directory": "src/middleware/compress"
+    },
+    {
+      "path": "src/middleware/cors/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 352,
+      "commits": 17,
+      "bugs": 16,
+      "directory": "src/middleware/cors"
+    },
+    {
+      "path": "src/router/trie-router/router.test.ts",
+      "name": "router.test.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 17,
+      "bugs": 17,
+      "directory": "src/router/trie-router"
+    },
+    {
+      "path": "benchmarks/handle-event/index.js",
+      "name": "index.js",
+      "extension": ".js",
+      "loc": 150,
+      "commits": 16,
+      "bugs": 12,
+      "directory": "benchmarks/handle-event"
+    },
+    {
+      "path": "src/utils/body.test.ts",
+      "name": "body.test.ts",
+      "extension": ".ts",
+      "loc": 372,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/buffer.test.ts",
+      "name": "buffer.test.ts",
+      "extension": ".ts",
+      "loc": 120,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/helper/streaming/sse.ts",
+      "name": "sse.ts",
+      "extension": ".ts",
+      "loc": 94,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/helper/ssg/ssg.ts",
+      "name": "ssg.ts",
+      "extension": ".ts",
+      "loc": 474,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/helper/ssg"
+    },
+    {
+      "path": "src/client/utils.test.ts",
+      "name": "utils.test.ts",
+      "extension": ".ts",
+      "loc": 358,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/client/utils.ts",
+      "name": "utils.ts",
+      "extension": ".ts",
+      "loc": 114,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/jsx/hooks/dom.test.tsx",
+      "name": "dom.test.tsx",
+      "extension": ".tsx",
+      "loc": 735,
+      "commits": 16,
+      "bugs": 16,
+      "directory": "src/jsx/hooks"
+    },
+    {
+      "path": "src/middleware/serve-static/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 271,
+      "commits": 15,
+      "bugs": 14,
+      "directory": "src/middleware/serve-static"
+    },
+    {
+      "path": "src/utils/jwt/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 128,
+      "commits": 15,
+      "bugs": 13,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/lambda-edge/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 195,
+      "commits": 15,
+      "bugs": 15,
+      "directory": "src/adapter/lambda-edge"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/serve-static.ts",
+      "name": "serve-static.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 15,
+      "bugs": 15,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/helper/css/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 232,
+      "commits": 15,
+      "bugs": 15,
+      "directory": "src/helper/css"
+    },
+    {
+      "path": "src/helper/adapter/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 90,
+      "commits": 15,
+      "bugs": 15,
+      "directory": "src/helper/adapter"
+    },
+    {
+      "path": "src/middleware/jsx-renderer/index.test.tsx",
+      "name": "index.test.tsx",
+      "extension": ".tsx",
+      "loc": 458,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/middleware/jsx-renderer"
+    },
+    {
+      "path": "src/middleware/cache/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 419,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/middleware/cache"
+    },
+    {
+      "path": "src/utils/crypto.test.ts",
+      "name": "crypto.test.ts",
+      "extension": ".ts",
+      "loc": 43,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/adapter/bun/serve-static.ts",
+      "name": "serve-static.ts",
+      "extension": ".ts",
+      "loc": 32,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/helper/websocket/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 140,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/helper/websocket"
+    },
+    {
+      "path": "src/helper/cookie/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 145,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/helper/cookie"
+    },
+    {
+      "path": "src/router/reg-exp-router/node.ts",
+      "name": "node.ts",
+      "extension": ".ts",
+      "loc": 162,
+      "commits": 14,
+      "bugs": 14,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "src/middleware/secure-headers/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 593,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/middleware/secure-headers"
+    },
+    {
+      "path": "src/middleware/basic-auth/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 321,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/middleware/basic-auth"
+    },
+    {
+      "path": "src/middleware/pretty-json/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 56,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/middleware/pretty-json"
+    },
+    {
+      "path": "src/utils/cookie.test.ts",
+      "name": "cookie.test.ts",
+      "extension": ".ts",
+      "loc": 289,
+      "commits": 13,
+      "bugs": 12,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/adapter/cloudflare-pages/handler.test.ts",
+      "name": "handler.test.ts",
+      "extension": ".ts",
+      "loc": 286,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/adapter/cloudflare-pages"
+    },
+    {
+      "path": "src/helper/html/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 57,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/helper/html"
+    },
+    {
+      "path": "src/jsx/components.ts",
+      "name": "components.ts",
+      "extension": ".ts",
+      "loc": 201,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/jsx-dev-runtime.ts",
+      "name": "jsx-dev-runtime.ts",
+      "extension": ".ts",
+      "loc": 23,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/reg-exp-router/trie.ts",
+      "name": "trie.ts",
+      "extension": ".ts",
+      "loc": 74,
+      "commits": 13,
+      "bugs": 13,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "src/middleware/jwt/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 607,
+      "commits": 12,
+      "bugs": 11,
+      "directory": "src/middleware/jwt"
+    },
+    {
+      "path": "src/middleware/bearer-auth/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 904,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/middleware/bearer-auth"
+    },
+    {
+      "path": "src/preset/quick.ts",
+      "name": "quick.ts",
+      "extension": ".ts",
+      "loc": 24,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/preset"
+    },
+    {
+      "path": "src/adapter/aws-lambda/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 13,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/adapter/aws-lambda"
+    },
+    {
+      "path": "src/adapter/bun/websocket.ts",
+      "name": "websocket.ts",
+      "extension": ".ts",
+      "loc": 103,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/helper/dev/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 79,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/helper/dev"
+    },
+    {
+      "path": "src/jsx/dom/css.ts",
+      "name": "css.ts",
+      "extension": ".ts",
+      "loc": 244,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/common.case.test.ts",
+      "name": "common.case.test.ts",
+      "extension": ".ts",
+      "loc": 882,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/router"
+    },
+    {
+      "path": "src/router/linear-router/router.ts",
+      "name": "router.ts",
+      "extension": ".ts",
+      "loc": 144,
+      "commits": 12,
+      "bugs": 12,
+      "directory": "src/router/linear-router"
+    },
+    {
+      "path": "src/router.ts",
+      "name": "router.ts",
+      "extension": ".ts",
+      "loc": 103,
+      "commits": 11,
+      "bugs": 10,
+      "directory": "src"
+    },
+    {
+      "path": "src/http-exception.ts",
+      "name": "http-exception.ts",
+      "extension": ".ts",
+      "loc": 78,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src"
+    },
+    {
+      "path": "src/middleware/logger/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 204,
+      "commits": 11,
+      "bugs": 10,
+      "directory": "src/middleware/logger"
+    },
+    {
+      "path": "src/middleware/secure-headers/secure-headers.ts",
+      "name": "secure-headers.ts",
+      "extension": ".ts",
+      "loc": 334,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/middleware/secure-headers"
+    },
+    {
+      "path": "src/preset/tiny.ts",
+      "name": "tiny.ts",
+      "extension": ".ts",
+      "loc": 20,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/preset"
+    },
+    {
+      "path": "src/utils/stream.ts",
+      "name": "stream.ts",
+      "extension": ".ts",
+      "loc": 96,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/mime.test.ts",
+      "name": "mime.test.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/encode.ts",
+      "name": "encode.ts",
+      "extension": ".ts",
+      "loc": 34,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/adapter/aws-lambda/handler.test.ts",
+      "name": "handler.test.ts",
+      "extension": ".ts",
+      "loc": 362,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/adapter/aws-lambda"
+    },
+    {
+      "path": "src/helper/css/index.test.tsx",
+      "name": "index.test.tsx",
+      "extension": ".tsx",
+      "loc": 299,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/helper/css"
+    },
+    {
+      "path": "src/helper/cookie/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 501,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/helper/cookie"
+    },
+    {
+      "path": "src/router/trie-router/router.ts",
+      "name": "router.ts",
+      "extension": ".ts",
+      "loc": 28,
+      "commits": 11,
+      "bugs": 11,
+      "directory": "src/router/trie-router"
+    },
+    {
+      "path": "src/middleware/secure-headers/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/middleware/secure-headers"
+    },
+    {
+      "path": "src/middleware/powered-by/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 35,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/middleware/powered-by"
+    },
+    {
+      "path": "src/middleware/csrf/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 151,
+      "commits": 10,
+      "bugs": 8,
+      "directory": "src/middleware/csrf"
+    },
+    {
+      "path": "src/utils/filepath.ts",
+      "name": "filepath.ts",
+      "extension": ".ts",
+      "loc": 60,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/color.ts",
+      "name": "color.ts",
+      "extension": ".ts",
+      "loc": 56,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/encode.test.ts",
+      "name": "encode.test.ts",
+      "extension": ".ts",
+      "loc": 61,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/jsx/jsx-dev-runtime.ts",
+      "name": "jsx-dev-runtime.ts",
+      "extension": ".ts",
+      "loc": 26,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/css.test.tsx",
+      "name": "css.test.tsx",
+      "extension": ".tsx",
+      "loc": 122,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/linear-router/router.test.ts",
+      "name": "router.test.ts",
+      "extension": ".ts",
+      "loc": 69,
+      "commits": 10,
+      "bugs": 10,
+      "directory": "src/router/linear-router"
+    },
+    {
+      "path": "src/middleware/jwt/jwt.ts",
+      "name": "jwt.ts",
+      "extension": ".ts",
+      "loc": 173,
+      "commits": 9,
+      "bugs": 9,
+      "directory": "src/middleware/jwt"
+    },
+    {
+      "path": "src/middleware/timing/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 9,
+      "bugs": 9,
+      "directory": "src/middleware/timing"
+    },
+    {
+      "path": "src/jsx/components.test.tsx",
+      "name": "components.test.tsx",
+      "extension": ".tsx",
+      "loc": 582,
+      "commits": 9,
+      "bugs": 9,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/router/smart-router/router.ts",
+      "name": "router.ts",
+      "extension": ".ts",
+      "loc": 70,
+      "commits": 9,
+      "bugs": 9,
+      "directory": "src/router/smart-router"
+    },
+    {
+      "path": "src/middleware/compress/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 223,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/middleware/compress"
+    },
+    {
+      "path": "src/middleware/body-limit/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 125,
+      "commits": 8,
+      "bugs": 7,
+      "directory": "src/middleware/body-limit"
+    },
+    {
+      "path": "src/utils/http-status.ts",
+      "name": "http-status.ts",
+      "extension": ".ts",
+      "loc": 72,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/adapter/bun/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 10,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/websocket.ts",
+      "name": "websocket.ts",
+      "extension": ".ts",
+      "loc": 53,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/serve-static.test.ts",
+      "name": "serve-static.test.ts",
+      "extension": ".ts",
+      "loc": 221,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/helper/proxy/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 190,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/helper/proxy"
+    },
+    {
+      "path": "src/helper/streaming/stream.ts",
+      "name": "stream.ts",
+      "extension": ".ts",
+      "loc": 45,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/helper/streaming/stream.test.ts",
+      "name": "stream.test.ts",
+      "extension": ".ts",
+      "loc": 128,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/helper/ssg/utils.ts",
+      "name": "utils.ts",
+      "extension": ".ts",
+      "loc": 75,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/helper/ssg"
+    },
+    {
+      "path": "src/helper/testing/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 27,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/helper/testing"
+    },
+    {
+      "path": "src/jsx/utils.ts",
+      "name": "utils.ts",
+      "extension": ".ts",
+      "loc": 36,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/jsx-runtime.ts",
+      "name": "jsx-runtime.ts",
+      "extension": ".ts",
+      "loc": 48,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/context.ts",
+      "name": "context.ts",
+      "extension": ".ts",
+      "loc": 52,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/jsx/dom/components.test.tsx",
+      "name": "components.test.tsx",
+      "extension": ".tsx",
+      "loc": 330,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/pattern-router/router.test.ts",
+      "name": "router.test.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 8,
+      "bugs": 8,
+      "directory": "src/router/pattern-router"
+    },
+    {
+      "path": "src/middleware/combine/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 165,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/middleware/combine"
+    },
+    {
+      "path": "src/utils/html.test.ts",
+      "name": "html.test.ts",
+      "extension": ".ts",
+      "loc": 16,
+      "commits": 7,
+      "bugs": 6,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/jwt/jws.ts",
+      "name": "jws.ts",
+      "extension": ".ts",
+      "loc": 234,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/deno/websocket.ts",
+      "name": "websocket.ts",
+      "extension": ".ts",
+      "loc": 30,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/lambda-edge/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 14,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/adapter/lambda-edge"
+    },
+    {
+      "path": "src/adapter/lambda-edge/handler.test.ts",
+      "name": "handler.test.ts",
+      "extension": ".ts",
+      "loc": 122,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/adapter/lambda-edge"
+    },
+    {
+      "path": "src/adapter/vercel/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/adapter/vercel"
+    },
+    {
+      "path": "src/adapter/service-worker/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 37,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/adapter/service-worker"
+    },
+    {
+      "path": "src/helper/proxy/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 336,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/helper/proxy"
+    },
+    {
+      "path": "src/helper/dev/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 181,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/helper/dev"
+    },
+    {
+      "path": "src/client/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 15,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/jsx/dom/context.test.tsx",
+      "name": "context.test.tsx",
+      "extension": ".tsx",
+      "loc": 184,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/smart-router/router.test.ts",
+      "name": "router.test.ts",
+      "extension": ".ts",
+      "loc": 13,
+      "commits": 7,
+      "bugs": 7,
+      "directory": "src/router/smart-router"
+    },
+    {
+      "path": "perf-measures/type-check/scripts/process-results.ts",
+      "name": "process-results.ts",
+      "extension": ".ts",
+      "loc": 51,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "perf-measures/type-check/scripts"
+    },
+    {
+      "path": "runtime-tests/deno/middleware.test.tsx",
+      "name": "middleware.test.tsx",
+      "extension": ".tsx",
+      "loc": 186,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "runtime-tests/deno"
+    },
+    {
+      "path": "runtime-tests/bun/index.test.tsx",
+      "name": "index.test.tsx",
+      "extension": ".tsx",
+      "loc": 454,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "runtime-tests/bun"
+    },
+    {
+      "path": "src/middleware/jwk/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 877,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/middleware/jwk"
+    },
+    {
+      "path": "src/middleware/method-override/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 146,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/middleware/method-override"
+    },
+    {
+      "path": "src/middleware/pretty-json/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 76,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/middleware/pretty-json"
+    },
+    {
+      "path": "src/middleware/timing/timing.ts",
+      "name": "timing.ts",
+      "extension": ".ts",
+      "loc": 255,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/middleware/timing"
+    },
+    {
+      "path": "src/middleware/csrf/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 516,
+      "commits": 6,
+      "bugs": 4,
+      "directory": "src/middleware/csrf"
+    },
+    {
+      "path": "src/middleware/body-limit/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 201,
+      "commits": 6,
+      "bugs": 5,
+      "directory": "src/middleware/body-limit"
+    },
+    {
+      "path": "src/middleware/etag/digest.ts",
+      "name": "digest.ts",
+      "extension": ".ts",
+      "loc": 43,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/middleware/etag"
+    },
+    {
+      "path": "src/middleware/trailing-slash/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 71,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/middleware/trailing-slash"
+    },
+    {
+      "path": "src/utils/filepath.test.ts",
+      "name": "filepath.test.ts",
+      "extension": ".ts",
+      "loc": 67,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/jwt/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/aws-lambda/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 164,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/adapter/aws-lambda"
+    },
+    {
+      "path": "src/adapter/cloudflare-pages/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/adapter/cloudflare-pages"
+    },
+    {
+      "path": "src/adapter/bun/conninfo.test.ts",
+      "name": "conninfo.test.ts",
+      "extension": ".ts",
+      "loc": 84,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/helper/websocket/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 126,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/helper/websocket"
+    },
+    {
+      "path": "src/helper/css/common.case.test.tsx",
+      "name": "common.case.test.tsx",
+      "extension": ".tsx",
+      "loc": 506,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/helper/css"
+    },
+    {
+      "path": "src/helper/streaming/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 9,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/jsx/intrinsic-element/components.ts",
+      "name": "components.ts",
+      "extension": ".ts",
+      "loc": 196,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/jsx/intrinsic-element"
+    },
+    {
+      "path": "src/jsx/dom/components.ts",
+      "name": "components.ts",
+      "extension": ".ts",
+      "loc": 39,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/jsx/dom/intrinsic-element/components.ts",
+      "name": "components.ts",
+      "extension": ".ts",
+      "loc": 398,
+      "commits": 6,
+      "bugs": 6,
+      "directory": "src/jsx/dom/intrinsic-element"
+    },
+    {
+      "path": "runtime-tests/lambda/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 1087,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "runtime-tests/lambda"
+    },
+    {
+      "path": "benchmarks/deno/hono.ts",
+      "name": "hono.ts",
+      "extension": ".ts",
+      "loc": 21,
+      "commits": 5,
+      "bugs": 3,
+      "directory": "benchmarks/deno"
+    },
+    {
+      "path": "src/middleware/combine/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 338,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/middleware/combine"
+    },
+    {
+      "path": "src/middleware/powered-by/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 37,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/middleware/powered-by"
+    },
+    {
+      "path": "src/middleware/jwk/jwk.ts",
+      "name": "jwk.ts",
+      "extension": ".ts",
+      "loc": 175,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/middleware/jwk"
+    },
+    {
+      "path": "src/utils/types.test.ts",
+      "name": "types.test.ts",
+      "extension": ".ts",
+      "loc": 284,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/adapter/deno/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 9,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/vercel/handler.test.ts",
+      "name": "handler.test.ts",
+      "extension": ".ts",
+      "loc": 38,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/adapter/vercel"
+    },
+    {
+      "path": "src/adapter/bun/conninfo.ts",
+      "name": "conninfo.ts",
+      "extension": ".ts",
+      "loc": 37,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/websocket.test.ts",
+      "name": "websocket.test.ts",
+      "extension": ".ts",
+      "loc": 59,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/utils.ts",
+      "name": "utils.ts",
+      "extension": ".ts",
+      "loc": 50,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/adapter/service-worker/handler.test.ts",
+      "name": "handler.test.ts",
+      "extension": ".ts",
+      "loc": 121,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/adapter/service-worker"
+    },
+    {
+      "path": "src/helper/html/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 78,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/helper/html"
+    },
+    {
+      "path": "src/helper/accepts/accepts.ts",
+      "name": "accepts.ts",
+      "extension": ".ts",
+      "loc": 49,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/helper/accepts"
+    },
+    {
+      "path": "src/client/types.test.ts",
+      "name": "types.test.ts",
+      "extension": ".ts",
+      "loc": 79,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/jsx/context.ts",
+      "name": "context.ts",
+      "extension": ".ts",
+      "loc": 50,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/utils.ts",
+      "name": "utils.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/router/reg-exp-router/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 5,
+      "bugs": 5,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "runtime-tests/deno/hono.test.ts",
+      "name": "hono.test.ts",
+      "extension": ".ts",
+      "loc": 35,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "runtime-tests/deno"
+    },
+    {
+      "path": "runtime-tests/node/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 301,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "runtime-tests/node"
+    },
+    {
+      "path": "src/http-exception.test.ts",
+      "name": "http-exception.test.ts",
+      "extension": ".ts",
+      "loc": 45,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src"
+    },
+    {
+      "path": "src/middleware/timing/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 190,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/middleware/timing"
+    },
+    {
+      "path": "src/middleware/context-storage/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 59,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/middleware/context-storage"
+    },
+    {
+      "path": "src/middleware/ip-restriction/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 178,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/middleware/ip-restriction"
+    },
+    {
+      "path": "src/utils/color.test.ts",
+      "name": "color.test.ts",
+      "extension": ".ts",
+      "loc": 49,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/stream.test.ts",
+      "name": "stream.test.ts",
+      "extension": ".ts",
+      "loc": 121,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/adapter/deno/deno.d.ts",
+      "name": "deno.d.ts",
+      "extension": ".ts",
+      "loc": 79,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/vercel/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/vercel"
+    },
+    {
+      "path": "src/adapter/bun/websocket.test.ts",
+      "name": "websocket.test.ts",
+      "extension": ".ts",
+      "loc": 127,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/bun/ssg.ts",
+      "name": "ssg.ts",
+      "extension": ".ts",
+      "loc": 27,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/netlify/mod.ts",
+      "name": "mod.ts",
+      "extension": ".ts",
+      "loc": 1,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/netlify"
+    },
+    {
+      "path": "src/adapter/netlify/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 10,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/netlify"
+    },
+    {
+      "path": "src/adapter/service-worker/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 38,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/adapter/service-worker"
+    },
+    {
+      "path": "src/helper/conninfo/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 45,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/helper/conninfo"
+    },
+    {
+      "path": "src/helper/ssg/middleware.ts",
+      "name": "middleware.ts",
+      "extension": ".ts",
+      "loc": 83,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/helper/ssg"
+    },
+    {
+      "path": "src/helper/ssg/utils.test.ts",
+      "name": "utils.test.ts",
+      "extension": ".ts",
+      "loc": 35,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/helper/ssg"
+    },
+    {
+      "path": "src/helper/testing/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/helper/testing"
+    },
+    {
+      "path": "src/jsx/utils.test.ts",
+      "name": "utils.test.ts",
+      "extension": ".ts",
+      "loc": 108,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 41,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/constants.ts",
+      "name": "constants.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/intrinsic-element/components.test.tsx",
+      "name": "components.test.tsx",
+      "extension": ".tsx",
+      "loc": 1046,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/jsx/dom/intrinsic-element"
+    },
+    {
+      "path": "src/router/trie-router/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 4,
+      "bugs": 4,
+      "directory": "src/router/trie-router"
+    },
+    {
+      "path": "perf-measures/type-check/client.ts",
+      "name": "client.ts",
+      "extension": ".ts",
+      "loc": 5,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "perf-measures/type-check"
+    },
+    {
+      "path": "runtime-tests/deno/stream.test.ts",
+      "name": "stream.test.ts",
+      "extension": ".ts",
+      "loc": 115,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "runtime-tests/deno"
+    },
+    {
+      "path": "runtime-tests/lambda-edge/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 1134,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "runtime-tests/lambda-edge"
+    },
+    {
+      "path": "runtime-tests/workerd/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 98,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "runtime-tests/workerd"
+    },
+    {
+      "path": "runtime-tests/fastly/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 105,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "runtime-tests/fastly"
+    },
+    {
+      "path": "runtime-tests/deno-jsx/jsx.test.tsx",
+      "name": "jsx.test.tsx",
+      "extension": ".tsx",
+      "loc": 189,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "runtime-tests/deno-jsx"
+    },
+    {
+      "path": "benchmarks/http-server/benchmark.ts",
+      "name": "benchmark.ts",
+      "extension": ".ts",
+      "loc": 326,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "benchmarks/http-server"
+    },
+    {
+      "path": "benchmarks/utils/src/get-path.ts",
+      "name": "get-path.ts",
+      "extension": ".ts",
+      "loc": 66,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "benchmarks/utils/src"
+    },
+    {
+      "path": "src/middleware/context-storage/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 43,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/middleware/context-storage"
+    },
+    {
+      "path": "src/middleware/ip-restriction/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 118,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/middleware/ip-restriction"
+    },
+    {
+      "path": "src/middleware/trailing-slash/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 190,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/middleware/trailing-slash"
+    },
+    {
+      "path": "src/middleware/request-id/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 168,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/middleware/request-id"
+    },
+    {
+      "path": "src/validator/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/validator"
+    },
+    {
+      "path": "src/preset/quick.test.ts",
+      "name": "quick.test.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/preset"
+    },
+    {
+      "path": "src/preset/tiny.test.ts",
+      "name": "tiny.test.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/preset"
+    },
+    {
+      "path": "src/utils/ipaddr.test.ts",
+      "name": "ipaddr.test.ts",
+      "extension": ".ts",
+      "loc": 79,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/handler.ts",
+      "name": "handler.ts",
+      "extension": ".ts",
+      "loc": 15,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/jwt/utf8.ts",
+      "name": "utf8.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 3,
+      "bugs": 2,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/deno/websocket.test.ts",
+      "name": "websocket.test.ts",
+      "extension": ".ts",
+      "loc": 93,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/deno/ssg.ts",
+      "name": "ssg.ts",
+      "extension": ".ts",
+      "loc": 27,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/deno/conninfo.test.ts",
+      "name": "conninfo.test.ts",
+      "extension": ".ts",
+      "loc": 25,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/conninfo.ts",
+      "name": "conninfo.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/serve-static-module.ts",
+      "name": "serve-static-module.ts",
+      "extension": ".ts",
+      "loc": 12,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/conninfo.test.ts",
+      "name": "conninfo.test.ts",
+      "extension": ".ts",
+      "loc": 19,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/helper/route/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 219,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/route"
+    },
+    {
+      "path": "src/helper/route/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 141,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/route"
+    },
+    {
+      "path": "src/helper/css/common.ts",
+      "name": "common.ts",
+      "extension": ".ts",
+      "loc": 243,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/css"
+    },
+    {
+      "path": "src/helper/conninfo/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/conninfo"
+    },
+    {
+      "path": "src/helper/adapter/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 55,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/adapter"
+    },
+    {
+      "path": "src/helper/streaming/sse.test.tsx",
+      "name": "sse.test.tsx",
+      "extension": ".tsx",
+      "loc": 241,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/helper/streaming/text.ts",
+      "name": "text.ts",
+      "extension": ".ts",
+      "loc": 15,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/helper/accepts/accepts.test.ts",
+      "name": "accepts.test.ts",
+      "extension": ".ts",
+      "loc": 181,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/helper/accepts"
+    },
+    {
+      "path": "src/client/fetch-result-please.ts",
+      "name": "fetch-result-please.ts",
+      "extension": ".ts",
+      "loc": 95,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/client"
+    },
+    {
+      "path": "src/jsx/jsx-runtime.test.tsx",
+      "name": "jsx-runtime.test.tsx",
+      "extension": ".tsx",
+      "loc": 33,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/dom/jsx-runtime.ts",
+      "name": "jsx-runtime.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/jsx/dom/hooks/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 91,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/jsx/dom/hooks"
+    },
+    {
+      "path": "src/router/reg-exp-router/prepared-router.ts",
+      "name": "prepared-router.ts",
+      "extension": ".ts",
+      "loc": 165,
+      "commits": 3,
+      "bugs": 3,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "perf-measures/bundle-check/scripts/check-bundle-size.ts",
+      "name": "check-bundle-size.ts",
+      "extension": ".ts",
+      "loc": 52,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "perf-measures/bundle-check/scripts"
+    },
+    {
+      "path": "perf-measures/type-check/scripts/generate-app.ts",
+      "name": "generate-app.ts",
+      "extension": ".ts",
+      "loc": 27,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "perf-measures/type-check/scripts"
+    },
+    {
+      "path": "runtime-tests/lambda-edge/vitest.config.ts",
+      "name": "vitest.config.ts",
+      "extension": ".ts",
+      "loc": 11,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "runtime-tests/lambda-edge"
+    },
+    {
+      "path": "runtime-tests/workerd/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 30,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "runtime-tests/workerd"
+    },
+    {
+      "path": "runtime-tests/workerd/vitest.config.ts",
+      "name": "vitest.config.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "runtime-tests/workerd"
+    },
+    {
+      "path": "runtime-tests/fastly/vitest.config.ts",
+      "name": "vitest.config.ts",
+      "extension": ".ts",
+      "loc": 10,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "runtime-tests/fastly"
+    },
+    {
+      "path": "runtime-tests/lambda/vitest.config.ts",
+      "name": "vitest.config.ts",
+      "extension": ".ts",
+      "loc": 11,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "runtime-tests/lambda"
+    },
+    {
+      "path": "runtime-tests/node/vitest.config.ts",
+      "name": "vitest.config.ts",
+      "extension": ".ts",
+      "loc": 11,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "runtime-tests/node"
+    },
+    {
+      "path": "benchmarks/deno/fast.ts",
+      "name": "fast.ts",
+      "extension": ".ts",
+      "loc": 21,
+      "commits": 2,
+      "bugs": 1,
+      "directory": "benchmarks/deno"
+    },
+    {
+      "path": "benchmarks/jsx/src/nano.ts",
+      "name": "nano.ts",
+      "extension": ".ts",
+      "loc": 4,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/hono.ts",
+      "name": "hono.ts",
+      "extension": ".ts",
+      "loc": 4,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/preact.ts",
+      "name": "preact.ts",
+      "extension": ".ts",
+      "loc": 5,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/benchmark.ts",
+      "name": "benchmark.ts",
+      "extension": ".ts",
+      "loc": 38,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/nano.ts",
+      "name": "nano.ts",
+      "extension": ".ts",
+      "loc": 4,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/hono.ts",
+      "name": "hono.ts",
+      "extension": ".ts",
+      "loc": 3,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/preact.ts",
+      "name": "preact.ts",
+      "extension": ".ts",
+      "loc": 4,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/benchmark.ts",
+      "name": "benchmark.ts",
+      "extension": ".ts",
+      "loc": 38,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "src/middleware/secure-headers/permissions-policy.ts",
+      "name": "permissions-policy.ts",
+      "extension": ".ts",
+      "loc": 86,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/middleware/secure-headers"
+    },
+    {
+      "path": "src/middleware/timeout/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 58,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/middleware/timeout"
+    },
+    {
+      "path": "src/middleware/language/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 304,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/middleware/language"
+    },
+    {
+      "path": "src/middleware/language/language.ts",
+      "name": "language.ts",
+      "extension": ".ts",
+      "loc": 290,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/middleware/language"
+    },
+    {
+      "path": "src/middleware/request-id/request-id.ts",
+      "name": "request-id.ts",
+      "extension": ".ts",
+      "loc": 59,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/middleware/request-id"
+    },
+    {
+      "path": "src/middleware/request-id/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 7,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/middleware/request-id"
+    },
+    {
+      "path": "src/utils/accept.test.ts",
+      "name": "accept.test.ts",
+      "extension": ".ts",
+      "loc": 158,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/compress.ts",
+      "name": "compress.ts",
+      "extension": ".ts",
+      "loc": 10,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/ipaddr.ts",
+      "name": "ipaddr.ts",
+      "extension": ".ts",
+      "loc": 140,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/basic-auth.test.ts",
+      "name": "basic-auth.test.ts",
+      "extension": ".ts",
+      "loc": 56,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/concurrent.ts",
+      "name": "concurrent.ts",
+      "extension": ".ts",
+      "loc": 55,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/jwt/jwa.ts",
+      "name": "jwa.ts",
+      "extension": ".ts",
+      "loc": 23,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/deno/conninfo.ts",
+      "name": "conninfo.ts",
+      "extension": ".ts",
+      "loc": 17,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/deno"
+    },
+    {
+      "path": "src/adapter/lambda-edge/conninfo.ts",
+      "name": "conninfo.ts",
+      "extension": ".ts",
+      "loc": 15,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/lambda-edge"
+    },
+    {
+      "path": "src/adapter/lambda-edge/conninfo.test.ts",
+      "name": "conninfo.test.ts",
+      "extension": ".ts",
+      "loc": 27,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/lambda-edge"
+    },
+    {
+      "path": "src/adapter/vercel/conninfo.ts",
+      "name": "conninfo.ts",
+      "extension": ".ts",
+      "loc": 8,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/vercel"
+    },
+    {
+      "path": "src/adapter/bun/server.test.ts",
+      "name": "server.test.ts",
+      "extension": ".ts",
+      "loc": 16,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/bun/server.ts",
+      "name": "server.ts",
+      "extension": ".ts",
+      "loc": 30,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/bun"
+    },
+    {
+      "path": "src/adapter/netlify/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/netlify"
+    },
+    {
+      "path": "src/adapter/service-worker/types.ts",
+      "name": "types.ts",
+      "extension": ".ts",
+      "loc": 14,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/adapter/service-worker"
+    },
+    {
+      "path": "src/helper/streaming/text.test.ts",
+      "name": "text.test.ts",
+      "extension": ".ts",
+      "loc": 34,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/helper/accepts/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/helper/accepts"
+    },
+    {
+      "path": "src/jsx/base.test.tsx",
+      "name": "base.test.tsx",
+      "extension": ".tsx",
+      "loc": 36,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/hooks/string.test.tsx",
+      "name": "string.test.tsx",
+      "extension": ".tsx",
+      "loc": 40,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/jsx/hooks"
+    },
+    {
+      "path": "src/jsx/dom/client.ts",
+      "name": "client.ts",
+      "extension": ".ts",
+      "loc": 89,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/jsx/dom/client.test.tsx",
+      "name": "client.test.tsx",
+      "extension": ".tsx",
+      "loc": 128,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/jsx/dom/server.ts",
+      "name": "server.ts",
+      "extension": ".ts",
+      "loc": 70,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/jsx/dom"
+    },
+    {
+      "path": "src/jsx/dom/hooks/index.test.tsx",
+      "name": "index.test.tsx",
+      "extension": ".tsx",
+      "loc": 172,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/jsx/dom/hooks"
+    },
+    {
+      "path": "src/router/reg-exp-router/prepared-router.test.ts",
+      "name": "prepared-router.test.ts",
+      "extension": ".ts",
+      "loc": 154,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "src/router/reg-exp-router/matcher.ts",
+      "name": "matcher.ts",
+      "extension": ".ts",
+      "loc": 33,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/router/reg-exp-router"
+    },
+    {
+      "path": "src/router/smart-router/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/router/smart-router"
+    },
+    {
+      "path": "src/router/pattern-router/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/router/pattern-router"
+    },
+    {
+      "path": "src/router/linear-router/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 6,
+      "commits": 2,
+      "bugs": 2,
+      "directory": "src/router/linear-router"
+    },
+    {
+      "path": "runtime-tests/deno/ssg.test.tsx",
+      "name": "ssg.test.tsx",
+      "extension": ".tsx",
+      "loc": 52,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "runtime-tests/deno"
+    },
+    {
+      "path": "runtime-tests/bun/color.test.ts",
+      "name": "color.test.ts",
+      "extension": ".ts",
+      "loc": 21,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "runtime-tests/bun"
+    },
+    {
+      "path": "runtime-tests/lambda/mock.ts",
+      "name": "mock.ts",
+      "extension": ".ts",
+      "loc": 42,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "runtime-tests/lambda"
+    },
+    {
+      "path": "runtime-tests/lambda/stream-mock.ts",
+      "name": "stream-mock.ts",
+      "extension": ".ts",
+      "loc": 43,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "runtime-tests/lambda"
+    },
+    {
+      "path": "runtime-tests/lambda/stream.test.ts",
+      "name": "stream.test.ts",
+      "extension": ".ts",
+      "loc": 75,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "runtime-tests/lambda"
+    },
+    {
+      "path": "benchmarks/deno/faster.ts",
+      "name": "faster.ts",
+      "extension": ".ts",
+      "loc": 18,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/deno"
+    },
+    {
+      "path": "benchmarks/deno/opine.ts",
+      "name": "opine.ts",
+      "extension": ".ts",
+      "loc": 18,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/deno"
+    },
+    {
+      "path": "benchmarks/deno/magalo.ts",
+      "name": "magalo.ts",
+      "extension": ".ts",
+      "loc": 20,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/deno"
+    },
+    {
+      "path": "benchmarks/deno/oak.ts",
+      "name": "oak.ts",
+      "extension": ".ts",
+      "loc": 24,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/deno"
+    },
+    {
+      "path": "benchmarks/webapp/hono.js",
+      "name": "hono.js",
+      "extension": ".js",
+      "loc": 18,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "benchmarks/webapp"
+    },
+    {
+      "path": "benchmarks/webapp/sunder.js",
+      "name": "sunder.js",
+      "extension": ".js",
+      "loc": 40,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "benchmarks/webapp"
+    },
+    {
+      "path": "benchmarks/webapp/itty-router.js",
+      "name": "itty-router.js",
+      "extension": ".js",
+      "loc": 25,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "benchmarks/webapp"
+    },
+    {
+      "path": "benchmarks/utils/src/loop.js",
+      "name": "loop.js",
+      "extension": ".js",
+      "loc": 37,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/utils/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/page-react.tsx",
+      "name": "page-react.tsx",
+      "extension": ".tsx",
+      "loc": 37,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/page.tsx",
+      "name": "page.tsx",
+      "extension": ".tsx",
+      "loc": 37,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/react.ts",
+      "name": "react.ts",
+      "extension": ".ts",
+      "loc": 5,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/page-nano.tsx",
+      "name": "page-nano.tsx",
+      "extension": ".tsx",
+      "loc": 36,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/page-preact.tsx",
+      "name": "page-preact.tsx",
+      "extension": ".tsx",
+      "loc": 36,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/page-react.tsx",
+      "name": "page-react.tsx",
+      "extension": ".tsx",
+      "loc": 36,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/page-hono.tsx",
+      "name": "page-hono.tsx",
+      "extension": ".tsx",
+      "loc": 36,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": "benchmarks/jsx/src/react-jsx/react.ts",
+      "name": "react.ts",
+      "extension": ".ts",
+      "loc": 4,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "benchmarks/jsx/src/react-jsx"
+    },
+    {
+      "path": ".vitest.config/setup-vitest.ts",
+      "name": "setup-vitest.ts",
+      "extension": ".ts",
+      "loc": 47,
+      "commits": 1,
+      "bugs": 1,
+      "directory": ".vitest.config"
+    },
+    {
+      "path": "src/middleware/timeout/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 70,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/middleware/timeout"
+    },
+    {
+      "path": "src/middleware/language/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 12,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/middleware/language"
+    },
+    {
+      "path": "src/middleware/jwk/index.ts",
+      "name": "index.ts",
+      "extension": ".ts",
+      "loc": 1,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/middleware/jwk"
+    },
+    {
+      "path": "src/middleware/method-override/index.test.ts",
+      "name": "index.test.ts",
+      "extension": ".ts",
+      "loc": 182,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/middleware/method-override"
+    },
+    {
+      "path": "src/middleware/serve-static/path.ts",
+      "name": "path.ts",
+      "extension": ".ts",
+      "loc": 25,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/middleware/serve-static"
+    },
+    {
+      "path": "src/middleware/serve-static/path.test.ts",
+      "name": "path.test.ts",
+      "extension": ".ts",
+      "loc": 50,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/middleware/serve-static"
+    },
+    {
+      "path": "src/utils/basic-auth.ts",
+      "name": "basic-auth.ts",
+      "extension": ".ts",
+      "loc": 26,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/headers.ts",
+      "name": "headers.ts",
+      "extension": ".ts",
+      "loc": 333,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/concurrent.test.ts",
+      "name": "concurrent.test.ts",
+      "extension": ".ts",
+      "loc": 69,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/accept.ts",
+      "name": "accept.ts",
+      "extension": ".ts",
+      "loc": 86,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/constants.ts",
+      "name": "constants.ts",
+      "extension": ".ts",
+      "loc": 4,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/utils"
+    },
+    {
+      "path": "src/utils/jwt/jwa.test.ts",
+      "name": "jwa.test.ts",
+      "extension": ".ts",
+      "loc": 17,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/utils/jwt"
+    },
+    {
+      "path": "src/adapter/vercel/conninfo.test.ts",
+      "name": "conninfo.test.ts",
+      "extension": ".ts",
+      "loc": 18,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/adapter/vercel"
+    },
+    {
+      "path": "src/adapter/cloudflare-workers/utils.test.ts",
+      "name": "utils.test.ts",
+      "extension": ".ts",
+      "loc": 33,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/adapter/cloudflare-workers"
+    },
+    {
+      "path": "src/request/constants.ts",
+      "name": "constants.ts",
+      "extension": ".ts",
+      "loc": 1,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/request"
+    },
+    {
+      "path": "src/helper/streaming/utils.ts",
+      "name": "utils.ts",
+      "extension": ".ts",
+      "loc": 11,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/helper/streaming"
+    },
+    {
+      "path": "src/jsx/children.test.ts",
+      "name": "children.test.ts",
+      "extension": ".ts",
+      "loc": 52,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/children.ts",
+      "name": "children.ts",
+      "extension": ".ts",
+      "loc": 20,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/jsx"
+    },
+    {
+      "path": "src/jsx/intrinsic-element/common.ts",
+      "name": "common.ts",
+      "extension": ".ts",
+      "loc": 11,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/jsx/intrinsic-element"
+    },
+    {
+      "path": "src/jsx/intrinsic-element/components.test.tsx",
+      "name": "components.test.tsx",
+      "extension": ".tsx",
+      "loc": 399,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/jsx/intrinsic-element"
+    },
+    {
+      "path": "src/jsx/dom/server.test.tsx",
+      "name": "server.test.tsx",
+      "extension": ".tsx",
+      "loc": 128,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/jsx/dom"
+    }
+  ]
+}
