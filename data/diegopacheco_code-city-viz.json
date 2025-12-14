@@ -1,0 +1,233 @@
+{
+  "repo_url": "https://github.com/diegopacheco/code-city-viz",
+  "org": "diegopacheco",
+  "repo": "code-city-viz",
+  "total_files": 13,
+  "total_loc": 1582,
+  "total_commits": 17,
+  "total_bugs": 0,
+  "files_with_bugs": 0,
+  "files": [
+    {
+      "path": "analyze.py",
+      "name": "analyze.py",
+      "extension": ".py",
+      "loc": 238,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": true
+      },
+      "smell_score": 21
+    },
+    {
+      "path": "run.sh",
+      "name": "run.sh",
+      "extension": ".sh",
+      "loc": 15,
+      "commits": 2,
+      "bugs": 0,
+      "directory": "",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
+    },
+    {
+      "path": "src/ui.js",
+      "name": "ui.js",
+      "extension": ".js",
+      "loc": 136,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 3,
+        "low_comments": true
+      },
+      "smell_score": 23
+    },
+    {
+      "path": "src/weather.js",
+      "name": "weather.js",
+      "extension": ".js",
+      "loc": 134,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 20
+    },
+    {
+      "path": "src/controls.js",
+      "name": "controls.js",
+      "extension": ".js",
+      "loc": 207,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 1,
+        "long_lines": 1,
+        "low_comments": true
+      },
+      "smell_score": 16
+    },
+    {
+      "path": "src/city.js",
+      "name": "city.js",
+      "extension": ".js",
+      "loc": 224,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 2,
+        "low_comments": true
+      },
+      "smell_score": 12
+    },
+    {
+      "path": "src/buildings.js",
+      "name": "buildings.js",
+      "extension": ".js",
+      "loc": 70,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 2,
+        "low_comments": true
+      },
+      "smell_score": 12
+    },
+    {
+      "path": "src/main.js",
+      "name": "main.js",
+      "extension": ".js",
+      "loc": 150,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 2,
+        "deep_nesting": 2,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 40
+    },
+    {
+      "path": "src/entities.js",
+      "name": "entities.js",
+      "extension": ".js",
+      "loc": 142,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "src/state.js",
+      "name": "state.js",
+      "extension": ".js",
+      "loc": 38,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "src/textures.js",
+      "name": "textures.js",
+      "extension": ".js",
+      "loc": 84,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "src/utils.js",
+      "name": "utils.js",
+      "extension": ".js",
+      "loc": 41,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "src/environment.js",
+      "name": "environment.js",
+      "extension": ".js",
+      "loc": 103,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    }
+  ]
+}

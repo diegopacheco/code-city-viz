@@ -3,24 +3,22 @@ import { state, MAX_BUILDINGS } from './state.js';
 import { isTestFile } from './utils.js';
 
 export async function discoverJsonFiles() {
-    const knownFiles = ['data/google_gson.json'];
     const discovered = [];
-    for (const file of knownFiles) {
-        try {
-            const response = await fetch(file, { method: 'HEAD' });
-            if (response.ok) discovered.push(file);
-        } catch (e) {}
-    }
     try {
-        const response = await fetch('data/files.json');
+        const cacheBust = '?t=' + Date.now();
+        const response = await fetch('data/files.json' + cacheBust);
         if (response.ok) {
             const files = await response.json();
             files.forEach(f => {
-                const path = 'data/' + f;
-                if (!discovered.includes(path)) discovered.push(path);
+                discovered.push('data/' + f);
             });
         }
-    } catch (e) {}
+    } catch (e) {
+        console.error('Error loading files.json:', e);
+    }
+    if (discovered.length === 0) {
+        discovered.push('data/google_gson.json');
+    }
     return discovered;
 }
 
