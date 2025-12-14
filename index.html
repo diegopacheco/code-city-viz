@@ -199,7 +199,17 @@
             <button class="toggle-btn active" id="testsOnBtn">On</button>
             <button class="toggle-btn" id="testsOffBtn">Off</button>
         </div>
-        <p style="margin-top:15px;font-size:11px;opacity:0.7">Mouse: Rotate | Scroll: Zoom</p>
+        <label>Rain</label>
+        <div class="toggle-group">
+            <button class="toggle-btn" id="rainOnBtn">On</button>
+            <button class="toggle-btn active" id="rainOffBtn">Off</button>
+        </div>
+        <label>Snow</label>
+        <div class="toggle-group">
+            <button class="toggle-btn" id="snowOnBtn">On</button>
+            <button class="toggle-btn active" id="snowOffBtn">Off</button>
+        </div>
+        <p style="margin-top:15px;font-size:11px;opacity:0.7">Mouse: Rotate | Scroll: Zoom | DblClick: GitHub</p>
     </div>
     <script type="importmap">
     {
@@ -234,6 +244,10 @@
         let frameCount = 0;
         let lastFpsUpdate = 0;
         let currentFps = 0;
+        let rainParticles = null;
+        let snowParticles = null;
+        let rainVisible = false;
+        let snowVisible = false;
 
         function generateVibrantColor(index, total) {
             const hue = (index / total) * 360;
@@ -426,7 +440,8 @@
             originalMaterials.clear();
             scene.children = scene.children.filter(child =>
                 child === ambientLight || child === sunLight || child === hemisphereLight ||
-                child.type === 'DirectionalLight' || clouds.includes(child)
+                child.type === 'DirectionalLight' || clouds.includes(child) ||
+                child === rainParticles || child === snowParticles
             );
         }
 
@@ -528,6 +543,8 @@
             mouse = new THREE.Vector2();
 
             createClouds();
+            createRain();
+            createSnow();
 
             availableFiles = await discoverJsonFiles();
             populateFileSelector(availableFiles);
@@ -637,6 +654,42 @@
                 }
             });
 
+            document.getElementById('rainOnBtn').addEventListener('click', () => {
+                if (!rainVisible) {
+                    rainVisible = true;
+                    if (rainParticles) rainParticles.visible = true;
+                    document.getElementById('rainOnBtn').classList.add('active');
+                    document.getElementById('rainOffBtn').classList.remove('active');
+                }
+            });
+
+            document.getElementById('rainOffBtn').addEventListener('click', () => {
+                if (rainVisible) {
+                    rainVisible = false;
+                    if (rainParticles) rainParticles.visible = false;
+                    document.getElementById('rainOffBtn').classList.add('active');
+                    document.getElementById('rainOnBtn').classList.remove('active');
+                }
+            });
+
+            document.getElementById('snowOnBtn').addEventListener('click', () => {
+                if (!snowVisible) {
+                    snowVisible = true;
+                    if (snowParticles) snowParticles.visible = true;
+                    document.getElementById('snowOnBtn').classList.add('active');
+                    document.getElementById('snowOffBtn').classList.remove('active');
+                }
+            });
+
+            document.getElementById('snowOffBtn').addEventListener('click', () => {
+                if (snowVisible) {
+                    snowVisible = false;
+                    if (snowParticles) snowParticles.visible = false;
+                    document.getElementById('snowOffBtn').classList.add('active');
+                    document.getElementById('snowOnBtn').classList.remove('active');
+                }
+            });
+
             animate();
         }
 
@@ -693,6 +746,56 @@
                 scene.add(cloudGroup);
                 clouds.push(cloudGroup);
             }
+        }
+
+        function createRain() {
+            const rainCount = 5000;
+            const rainGeometry = new THREE.BufferGeometry();
+            const positions = new Float32Array(rainCount * 3);
+            const velocities = new Float32Array(rainCount);
+            for (let i = 0; i < rainCount; i++) {
+                positions[i * 3] = (Math.random() - 0.5) * 60;
+                positions[i * 3 + 1] = Math.random() * 20;
+                positions[i * 3 + 2] = (Math.random() - 0.5) * 60;
+                velocities[i] = 0.3 + Math.random() * 0.2;
+            }
+            rainGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            rainGeometry.userData = { velocities: velocities };
+            const rainMaterial = new THREE.PointsMaterial({
+                color: 0x6699cc,
+                size: 0.1,
+                transparent: true,
+                opacity: 0.6
+            });
+            rainParticles = new THREE.Points(rainGeometry, rainMaterial);
+            rainParticles.visible = false;
+            scene.add(rainParticles);
+        }
+
+        function createSnow() {
+            const snowCount = 3000;
+            const snowGeometry = new THREE.BufferGeometry();
+            const positions = new Float32Array(snowCount * 3);
+            const velocities = new Float32Array(snowCount * 3);
+            for (let i = 0; i < snowCount; i++) {
+                positions[i * 3] = (Math.random() - 0.5) * 60;
+                positions[i * 3 + 1] = Math.random() * 20;
+                positions[i * 3 + 2] = (Math.random() - 0.5) * 60;
+                velocities[i * 3] = (Math.random() - 0.5) * 0.01;
+                velocities[i * 3 + 1] = 0.02 + Math.random() * 0.02;
+                velocities[i * 3 + 2] = (Math.random() - 0.5) * 0.01;
+            }
+            snowGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            snowGeometry.userData = { velocities: velocities };
+            const snowMaterial = new THREE.PointsMaterial({
+                color: 0xffffff,
+                size: 0.15,
+                transparent: true,
+                opacity: 0.8
+            });
+            snowParticles = new THREE.Points(snowGeometry, snowMaterial);
+            snowParticles.visible = false;
+            scene.add(snowParticles);
         }
 
         function createCobblestoneTexture() {
@@ -1264,6 +1367,34 @@
                     }
                 }
             });
+            if (rainParticles && rainVisible) {
+                const positions = rainParticles.geometry.attributes.position.array;
+                const velocities = rainParticles.geometry.userData.velocities;
+                for (let i = 0; i < positions.length / 3; i++) {
+                    positions[i * 3 + 1] -= velocities[i];
+                    if (positions[i * 3 + 1] < 0) {
+                        positions[i * 3 + 1] = 20;
+                        positions[i * 3] = (Math.random() - 0.5) * 60;
+                        positions[i * 3 + 2] = (Math.random() - 0.5) * 60;
+                    }
+                }
+                rainParticles.geometry.attributes.position.needsUpdate = true;
+            }
+            if (snowParticles && snowVisible) {
+                const positions = snowParticles.geometry.attributes.position.array;
+                const velocities = snowParticles.geometry.userData.velocities;
+                for (let i = 0; i < positions.length / 3; i++) {
+                    positions[i * 3] += velocities[i * 3];
+                    positions[i * 3 + 1] -= velocities[i * 3 + 1];
+                    positions[i * 3 + 2] += velocities[i * 3 + 2];
+                    if (positions[i * 3 + 1] < 0) {
+                        positions[i * 3 + 1] = 20;
+                        positions[i * 3] = (Math.random() - 0.5) * 60;
+                        positions[i * 3 + 2] = (Math.random() - 0.5) * 60;
+                    }
+                }
+                snowParticles.geometry.attributes.position.needsUpdate = true;
+            }
             controls.update();
             renderer.render(scene, camera);
         }
