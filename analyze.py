@@ -214,10 +214,12 @@ def main():
     }
     output_filename = f"{org}_{repo}.json"
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_path = os.path.join(script_dir, output_filename)
+    data_dir = os.path.join(script_dir, 'data')
+    os.makedirs(data_dir, exist_ok=True)
+    output_path = os.path.join(data_dir, output_filename)
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
-    files_json_path = os.path.join(script_dir, 'files.json')
+    files_json_path = os.path.join(data_dir, 'files.json')
     existing_files = []
     if os.path.exists(files_json_path):
         with open(files_json_path, 'r') as f:

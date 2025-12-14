@@ -3,7 +3,7 @@ import { state, MAX_BUILDINGS } from './state.js';
 import { isTestFile } from './utils.js';
 
 export async function discoverJsonFiles() {
-    const knownFiles = ['google_gson.json'];
+    const knownFiles = ['data/google_gson.json'];
     const discovered = [];
     for (const file of knownFiles) {
         try {
@@ -12,10 +12,13 @@ export async function discoverJsonFiles() {
         } catch (e) {}
     }
     try {
-        const response = await fetch('files.json');
+        const response = await fetch('data/files.json');
         if (response.ok) {
             const files = await response.json();
-            files.forEach(f => { if (!discovered.includes(f)) discovered.push(f); });
+            files.forEach(f => {
+                const path = 'data/' + f;
+                if (!discovered.includes(path)) discovered.push(path);
+            });
         }
     } catch (e) {}
     return discovered;
@@ -27,7 +30,7 @@ export function populateFileSelector(files) {
     files.forEach(file => {
         const option = document.createElement('option');
         option.value = file;
-        option.textContent = file.replace('.json', '').replace('_', '/');
+        option.textContent = file.replace('data/', '').replace('.json', '').replace('_', '/');
         selector.appendChild(option);
     });
 }
