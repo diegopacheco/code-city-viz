@@ -1,6 +1,6 @@
 # Code City Viz
 
-By Diego Pacheco
+By Diego Pacheco using Three.js
 
 <img src="logo.png" width="400"/>
 
