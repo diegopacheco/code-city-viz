@@ -1,0 +1,534 @@
+{
+  "repo_url": "https://github.com/diegopacheco/tupilang",
+  "org": "diegopacheco",
+  "repo": "tupilang",
+  "total_files": 58,
+  "total_loc": 4822,
+  "total_commits": 188,
+  "total_bugs": 33,
+  "files_with_bugs": 32,
+  "files": [
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/interpreter/Interpreter.java",
+      "name": "Interpreter.java",
+      "extension": ".java",
+      "loc": 349,
+      "commits": 18,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/interpreter"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/parser/Parser.java",
+      "name": "Parser.java",
+      "extension": ".java",
+      "loc": 466,
+      "commits": 17,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/parser"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/lexer/Lexer.java",
+      "name": "Lexer.java",
+      "extension": ".java",
+      "loc": 224,
+      "commits": 14,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/lexer"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/token/Token.java",
+      "name": "Token.java",
+      "extension": ".java",
+      "loc": 91,
+      "commits": 10,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/token"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/repl/REPL.java",
+      "name": "REPL.java",
+      "extension": ".java",
+      "loc": 230,
+      "commits": 10,
+      "bugs": 2,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/repl"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/interpreter/InterpreterTest.java",
+      "name": "InterpreterTest.java",
+      "extension": ".java",
+      "loc": 482,
+      "commits": 7,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/interpreter"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/repl/REPLTest.java",
+      "name": "REPLTest.java",
+      "extension": ".java",
+      "loc": 217,
+      "commits": 5,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/repl"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/FunctionDefinition.java",
+      "name": "FunctionDefinition.java",
+      "extension": ".java",
+      "loc": 34,
+      "commits": 5,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/VariableExpr.java",
+      "name": "VariableExpr.java",
+      "extension": ".java",
+      "loc": 19,
+      "commits": 5,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/LiteralIntExpr.java",
+      "name": "LiteralIntExpr.java",
+      "extension": ".java",
+      "loc": 18,
+      "commits": 5,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/IfStatement.java",
+      "name": "IfStatement.java",
+      "extension": ".java",
+      "loc": 31,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/CallExpr.java",
+      "name": "CallExpr.java",
+      "extension": ".java",
+      "loc": 22,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ExpressionStatement.java",
+      "name": "ExpressionStatement.java",
+      "extension": ".java",
+      "loc": 13,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/Stmt.java",
+      "name": "Stmt.java",
+      "extension": ".java",
+      "loc": 3,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/Expr.java",
+      "name": "Expr.java",
+      "extension": ".java",
+      "loc": 3,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ReturnStatement.java",
+      "name": "ReturnStatement.java",
+      "extension": ".java",
+      "loc": 14,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/Param.java",
+      "name": "Param.java",
+      "extension": ".java",
+      "loc": 19,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/LiteralStringExpr.java",
+      "name": "LiteralStringExpr.java",
+      "extension": ".java",
+      "loc": 14,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/BinaryExpr.java",
+      "name": "BinaryExpr.java",
+      "extension": ".java",
+      "loc": 26,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ValDeclaration.java",
+      "name": "ValDeclaration.java",
+      "extension": ".java",
+      "loc": 19,
+      "commits": 4,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/Main.java",
+      "name": "Main.java",
+      "extension": ".java",
+      "loc": 44,
+      "commits": 3,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ForStatement.java",
+      "name": "ForStatement.java",
+      "extension": ".java",
+      "loc": 75,
+      "commits": 3,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "run.sh",
+      "name": "run.sh",
+      "extension": ".sh",
+      "loc": 4,
+      "commits": 2,
+      "bugs": 0,
+      "directory": ""
+    },
+    {
+      "path": "repl.sh",
+      "name": "repl.sh",
+      "extension": ".sh",
+      "loc": 3,
+      "commits": 2,
+      "bugs": 0,
+      "directory": ""
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/token/TokenTest.java",
+      "name": "TokenTest.java",
+      "extension": ".java",
+      "loc": 243,
+      "commits": 2,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/token"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/lexer/LexerTest.java",
+      "name": "LexerTest.java",
+      "extension": ".java",
+      "loc": 299,
+      "commits": 2,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/lexer"
+    },
+    {
+      "path": "src/main/java/module-info.java",
+      "name": "module-info.java",
+      "extension": ".java",
+      "loc": 10,
+      "commits": 2,
+      "bugs": 1,
+      "directory": "src/main/java"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/std/LenSTD.java",
+      "name": "LenSTD.java",
+      "extension": ".java",
+      "loc": 34,
+      "commits": 2,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/std"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/std/PrintSTD.java",
+      "name": "PrintSTD.java",
+      "extension": ".java",
+      "loc": 38,
+      "commits": 2,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/std"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/std/StandardFunction.java",
+      "name": "StandardFunction.java",
+      "extension": ".java",
+      "loc": 6,
+      "commits": 2,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/std"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ArrayLiteralExpr.java",
+      "name": "ArrayLiteralExpr.java",
+      "extension": ".java",
+      "loc": 32,
+      "commits": 2,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/LiteralBoolExpr.java",
+      "name": "LiteralBoolExpr.java",
+      "extension": ".java",
+      "loc": 19,
+      "commits": 2,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "build.sh",
+      "name": "build.sh",
+      "extension": ".sh",
+      "loc": 4,
+      "commits": 1,
+      "bugs": 0,
+      "directory": ""
+    },
+    {
+      "path": ".mvn/wrapper/MavenWrapperDownloader.java",
+      "name": "MavenWrapperDownloader.java",
+      "extension": ".java",
+      "loc": 117,
+      "commits": 1,
+      "bugs": 0,
+      "directory": ".mvn/wrapper"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/std/PrintSTDTest.java",
+      "name": "PrintSTDTest.java",
+      "extension": ".java",
+      "loc": 70,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/std"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/std/LenSTDTest.java",
+      "name": "LenSTDTest.java",
+      "extension": ".java",
+      "loc": 60,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/std"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/parser/ParserTest.java",
+      "name": "ParserTest.java",
+      "extension": ".java",
+      "loc": 244,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/parser"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/VariableExprTest.java",
+      "name": "VariableExprTest.java",
+      "extension": ".java",
+      "loc": 43,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/BinaryExprTest.java",
+      "name": "BinaryExprTest.java",
+      "extension": ".java",
+      "loc": 97,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ReturnStatementTest.java",
+      "name": "ReturnStatementTest.java",
+      "extension": ".java",
+      "loc": 59,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/LiteralIntExprTest.java",
+      "name": "LiteralIntExprTest.java",
+      "extension": ".java",
+      "loc": 48,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ExpressionStatementTest.java",
+      "name": "ExpressionStatementTest.java",
+      "extension": ".java",
+      "loc": 42,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/LiteralBoolExprTest.java",
+      "name": "LiteralBoolExprTest.java",
+      "extension": ".java",
+      "loc": 40,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/BlockStmtTest.java",
+      "name": "BlockStmtTest.java",
+      "extension": ".java",
+      "loc": 60,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/UnaryExprTest.java",
+      "name": "UnaryExprTest.java",
+      "extension": ".java",
+      "loc": 89,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ForStatementTest.java",
+      "name": "ForStatementTest.java",
+      "extension": ".java",
+      "loc": 103,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/LiteralStringExprTest.java",
+      "name": "LiteralStringExprTest.java",
+      "extension": ".java",
+      "loc": 42,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/IfStatementTest.java",
+      "name": "IfStatementTest.java",
+      "extension": ".java",
+      "loc": 94,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/FunctionDefinitionTest.java",
+      "name": "FunctionDefinitionTest.java",
+      "extension": ".java",
+      "loc": 110,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ValDeclarationTest.java",
+      "name": "ValDeclarationTest.java",
+      "extension": ".java",
+      "loc": 56,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ArrayLiteralExprTest.java",
+      "name": "ArrayLiteralExprTest.java",
+      "extension": ".java",
+      "loc": 39,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ArrayAccessExprTest.java",
+      "name": "ArrayAccessExprTest.java",
+      "extension": ".java",
+      "loc": 25,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/CallExprTest.java",
+      "name": "CallExprTest.java",
+      "extension": ".java",
+      "loc": 104,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/test/java/com/github/diegopacheco/tupilang/test/ast/ParamTest.java",
+      "name": "ParamTest.java",
+      "extension": ".java",
+      "loc": 62,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/test/java/com/github/diegopacheco/tupilang/test/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/BlockStmt.java",
+      "name": "BlockStmt.java",
+      "extension": ".java",
+      "loc": 25,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/ArrayAccessExpr.java",
+      "name": "ArrayAccessExpr.java",
+      "extension": ".java",
+      "loc": 24,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/AssignExpr.java",
+      "name": "AssignExpr.java",
+      "extension": ".java",
+      "loc": 32,
+      "commits": 1,
+      "bugs": 1,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    },
+    {
+      "path": "src/main/java/com/github/diegopacheco/tupilang/ast/UnaryExpr.java",
+      "name": "UnaryExpr.java",
+      "extension": ".java",
+      "loc": 32,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "src/main/java/com/github/diegopacheco/tupilang/ast"
+    }
+  ]
+}

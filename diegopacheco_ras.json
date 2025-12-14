@@ -1,0 +1,21 @@
+{
+  "repo_url": "https://github.com/diegopacheco/ras",
+  "org": "diegopacheco",
+  "repo": "ras",
+  "total_files": 1,
+  "total_loc": 465,
+  "total_commits": 4,
+  "total_bugs": 3,
+  "files_with_bugs": 1,
+  "files": [
+    {
+      "path": "src/main.rs",
+      "name": "main.rs",
+      "extension": ".rs",
+      "loc": 465,
+      "commits": 4,
+      "bugs": 3,
+      "directory": "src"
+    }
+  ]
+}
