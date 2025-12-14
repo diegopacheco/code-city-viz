@@ -9,9 +9,11 @@ const { state, MAX_BUILDINGS } = await import('../src/state.js');
 test('discoverJsonFiles falls back on default when fetch fails', async () => {
   setupDom();
   resetState();
+  const errorMock = mock.method(console, 'error', () => {});
   global.fetch = () => Promise.reject(new Error('fail'));
   const files = await ui.discoverJsonFiles();
   assert.ok(files.includes('data/google_gson.json'));
+  errorMock.mock.restore();
 });
 
 test('populateFileSelector fills options', () => {
