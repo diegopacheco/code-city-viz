@@ -1,0 +1,155 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow: hidden; font-family: 'Segoe UI', Arial, sans-serif; }
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.9));
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    z-index: 100;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+#info h2 { margin-bottom: 10px; color: #2c5282; font-size: 28px; }
+#info p { margin: 5px 0; font-size: 18px; opacity: 0.9; }
+#tooltip {
+    position: absolute;
+    background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(240,248,255,0.98));
+    color: #333;
+    padding: 24px 32px;
+    border-radius: 12px;
+    font-size: 22px;
+    line-height: 1.6;
+    pointer-events: none;
+    display: none;
+    z-index: 200;
+    border: 2px solid rgba(44,82,130,0.3);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+    min-width: 350px;
+}
+#tooltip strong { color: #2c5282; font-size: 26px; }
+#legend {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.9));
+    color: #333;
+    padding: 15px;
+    border-radius: 12px;
+    z-index: 100;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+#legend h4 { margin-bottom: 8px; color: #2c5282; font-size: 20px; }
+#legend p { font-size: 16px; margin: 4px 0; }
+#controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.9));
+    color: #333;
+    padding: 16px 20px;
+    border-radius: 12px;
+    z-index: 100;
+    font-size: 13px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    min-width: 200px;
+}
+#controls h4 { margin-bottom: 12px; color: #2c5282; }
+#controls label { display: block; margin: 10px 0 5px; font-weight: 500; }
+#controls input[type="range"] { width: 100%; cursor: pointer; }
+#controls .toggle-group { display: flex; gap: 10px; margin-top: 5px; }
+#controls .toggle-btn {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s;
+}
+#controls .toggle-btn.active { background: #2c5282; color: white; border-color: #2c5282; }
+#controls .toggle-btn:hover { opacity: 0.8; }
+.slider-value { float: right; font-weight: bold; color: #2c5282; }
+#top-bar {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.9));
+    color: #333;
+    padding: 12px 20px;
+    border-radius: 12px;
+    z-index: 100;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#top-bar select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    min-width: 200px;
+    cursor: pointer;
+}
+#top-bar input[type="text"] {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    min-width: 200px;
+}
+#top-bar button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    background: #2c5282;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+#top-bar button:hover { opacity: 0.8; }
+#search-results {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.95);
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 100;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    min-width: 300px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+#search-results div {
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#search-results div:hover { background: #e0e0e0; }
+#fps-counter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.9));
+    color: #2c5282;
+    padding: 10px 15px;
+    border-radius: 8px;
+    z-index: 100;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
