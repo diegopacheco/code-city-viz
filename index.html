@@ -83,9 +83,81 @@
         #controls .toggle-btn.active { background: #2c5282; color: white; border-color: #2c5282; }
         #controls .toggle-btn:hover { opacity: 0.8; }
         .slider-value { float: right; font-weight: bold; color: #2c5282; }
+        #top-bar {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.9));
+            color: #333;
+            padding: 12px 20px;
+            border-radius: 12px;
+            z-index: 100;
+            border: 1px solid rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        #top-bar select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            min-width: 200px;
+            cursor: pointer;
+        }
+        #top-bar input[type="text"] {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            min-width: 200px;
+        }
+        #top-bar button {
+            padding: 8px 16px;
+            border-radius: 6px;
+            border: none;
+            background: #2c5282;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        #top-bar button:hover { opacity: 0.8; }
+        #search-results {
+            position: absolute;
+            top: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255,255,255,0.95);
+            color: #333;
+            padding: 10px;
+            border-radius: 8px;
+            z-index: 100;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+            min-width: 300px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        #search-results div {
+            padding: 6px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        #search-results div:hover { background: #e0e0e0; }
     </style>
 </head>
 <body>
+    <div id="top-bar">
+        <select id="file-selector">
+            <option value="">Select a city...</option>
+        </select>
+        <input type="text" id="search-input" placeholder="Search file name...">
+        <button id="search-btn">Search</button>
+        <button id="clear-btn">Clear</button>
+    </div>
+    <div id="search-results"></div>
     <div id="info">
         <h2>Code City</h2>
         <p id="repo-name">Loading...</p>
@@ -140,6 +212,10 @@
         let isNightMode = false;
         let sunLight, ambientLight, hemisphereLight;
         let currentScale = 1.0;
+        let currentData = null;
+        let availableFiles = [];
+        let highlightedBuilding = null;
+        let originalMaterials = new Map();
 
         function generateVibrantColor(index, total) {
             const hue = (index / total) * 360;
@@ -271,6 +347,122 @@
             return { group, building, meshes: [building, tier1, tier2, dome, base] };
         }
 
+        async function discoverJsonFiles() {
+            const knownFiles = ['google_gson.json'];
+            const discovered = [];
+            for (const file of knownFiles) {
+                try {
+                    const response = await fetch(file, { method: 'HEAD' });
+                    if (response.ok) discovered.push(file);
+                } catch (e) {}
+            }
+            try {
+                const response = await fetch('files.json');
+                if (response.ok) {
+                    const files = await response.json();
+                    files.forEach(f => { if (!discovered.includes(f)) discovered.push(f); });
+                }
+            } catch (e) {}
+            return discovered;
+        }
+
+        function populateFileSelector(files) {
+            const selector = document.getElementById('file-selector');
+            selector.innerHTML = '<option value="">Select a city...</option>';
+            files.forEach(file => {
+                const option = document.createElement('option');
+                option.value = file;
+                option.textContent = file.replace('.json', '').replace('_', '/');
+                selector.appendChild(option);
+            });
+        }
+
+        async function loadCity(filename) {
+            if (!filename) return;
+            clearCity();
+            try {
+                const response = await fetch(filename);
+                const data = await response.json();
+                currentData = data;
+                createCity(data);
+                updateInfo(data);
+                updateLegend(data);
+            } catch (error) {
+                document.getElementById('repo-name').textContent = 'Error loading ' + filename;
+            }
+        }
+
+        function clearCity() {
+            buildingGroups.forEach(group => scene.remove(group));
+            buildingGroups = [];
+            buildings = [];
+            labels = [];
+            testBuildings = [];
+            bugs.forEach(bug => scene.remove(bug));
+            bugs = [];
+            cars.forEach(car => scene.remove(car));
+            cars = [];
+            people.forEach(person => scene.remove(person));
+            people = [];
+            highlightedBuilding = null;
+            originalMaterials.clear();
+            scene.children = scene.children.filter(child =>
+                child === ambientLight || child === sunLight || child === hemisphereLight ||
+                child.type === 'DirectionalLight' || clouds.includes(child)
+            );
+        }
+
+        function searchFile(query) {
+            if (!currentData || !query) return [];
+            const lowerQuery = query.toLowerCase();
+            return currentData.files.filter(f => f.name.toLowerCase().includes(lowerQuery));
+        }
+
+        function highlightBuilding(filePath) {
+            clearHighlight();
+            for (const group of buildingGroups) {
+                const mainBuilding = group.children.find(child => child.userData && child.userData.path === filePath);
+                if (mainBuilding) {
+                    highlightedBuilding = group;
+                    group.children.forEach(child => {
+                        if (child.material && !child.isSprite) {
+                            if (Array.isArray(child.material)) {
+                                originalMaterials.set(child, child.material.map(m => m.clone()));
+                                child.material.forEach(m => { m.emissive = new THREE.Color(0xffff00); m.emissiveIntensity = 0.5; });
+                            } else {
+                                originalMaterials.set(child, child.material.clone());
+                                child.material.emissive = new THREE.Color(0xffff00);
+                                child.material.emissiveIntensity = 0.5;
+                            }
+                        }
+                    });
+                    const pos = mainBuilding.position;
+                    camera.position.set(pos.x + 5, pos.y + 10, pos.z + 5);
+                    controls.target.set(pos.x, pos.y, pos.z);
+                    break;
+                }
+            }
+        }
+
+        function clearHighlight() {
+            if (highlightedBuilding) {
+                highlightedBuilding.children.forEach(child => {
+                    if (originalMaterials.has(child)) {
+                        const origMat = originalMaterials.get(child);
+                        if (Array.isArray(child.material)) {
+                            child.material.forEach((m, i) => { m.emissive = origMat[i].emissive; m.emissiveIntensity = origMat[i].emissiveIntensity; });
+                        } else {
+                            child.material.emissive = origMat.emissive;
+                            child.material.emissiveIntensity = origMat.emissiveIntensity;
+                        }
+                    }
+                });
+                highlightedBuilding = null;
+                originalMaterials.clear();
+            }
+            document.getElementById('search-results').style.display = 'none';
+        }
+
         async function init() {
             scene = new THREE.Scene();
             scene.background = new THREE.Color(0x87ceeb);
@@ -319,14 +511,45 @@
 
             createClouds();
 
-            try {
-                const response = await fetch('data.json');
-                const data = await response.json();
-                createCity(data);
-                updateInfo(data);
-                updateLegend(data);
-            } catch (error) {
-                document.getElementById('repo-name').textContent = 'Error loading data.json - Run analyze.py first';
+            availableFiles = await discoverJsonFiles();
+            populateFileSelector(availableFiles);
+
+            document.getElementById('file-selector').addEventListener('change', (e) => {
+                loadCity(e.target.value);
+            });
+
+            document.getElementById('search-btn').addEventListener('click', () => {
+                const query = document.getElementById('search-input').value;
+                const results = searchFile(query);
+                const resultsDiv = document.getElementById('search-results');
+                if (results.length > 0) {
+                    resultsDiv.innerHTML = results.slice(0, 10).map(f =>
+                        `<div data-path="${f.path}">${f.name} (${f.loc} LOC)</div>`
+                    ).join('');
+                    resultsDiv.style.display = 'block';
+                    resultsDiv.querySelectorAll('div').forEach(div => {
+                        div.addEventListener('click', () => {
+                            highlightBuilding(div.dataset.path);
+                            resultsDiv.style.display = 'none';
+                        });
+                    });
+                } else {
+                    resultsDiv.innerHTML = '<div>No results found</div>';
+                    resultsDiv.style.display = 'block';
+                }
+            });
+
+            document.getElementById('search-input').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') document.getElementById('search-btn').click();
+            });
+
+            document.getElementById('clear-btn').addEventListener('click', clearHighlight);
+
+            if (availableFiles.length > 0) {
+                document.getElementById('file-selector').value = availableFiles[0];
+                loadCity(availableFiles[0]);
+            } else {
+                document.getElementById('repo-name').textContent = 'No JSON files found - Run analyze.py first';
             }
 
             window.addEventListener('resize', onWindowResize);
@@ -703,12 +926,36 @@
             return testPatterns.some(pattern => pattern.test(path));
         }
 
+        function generateSpiralPositions(count, gridSize) {
+            const positions = [];
+            const centerX = Math.floor(gridSize / 2);
+            const centerZ = Math.floor(gridSize / 2);
+            let x = centerX, z = centerZ;
+            let dx = 0, dz = -1;
+            let stepsInDir = 1, stepsTaken = 0, dirChanges = 0;
+            for (let i = 0; i < count; i++) {
+                positions.push({ row: z, col: x });
+                stepsTaken++;
+                if (stepsTaken === stepsInDir) {
+                    stepsTaken = 0;
+                    const temp = dx;
+                    dx = -dz;
+                    dz = temp;
+                    dirChanges++;
+                    if (dirChanges % 2 === 0) stepsInDir++;
+                }
+                x += dx;
+                z += dz;
+            }
+            return positions;
+        }
+
         function createCity(data) {
             const files = data.files;
             if (!files.length) return;
 
-            const codeFiles = files.filter(f => !isTestFile(f.path));
-            const testFiles = files.filter(f => isTestFile(f.path));
+            const codeFiles = files.filter(f => !isTestFile(f.path)).sort((a, b) => (b.commits || 1) - (a.commits || 1));
+            const testFiles = files.filter(f => isTestFile(f.path)).sort((a, b) => (b.commits || 1) - (a.commits || 1));
             const maxCommits = Math.max(...files.map(f => f.commits || 1));
             const maxBugs = Math.max(...files.map(f => f.bugs || 0), 1);
             const spacing = 1.5;
@@ -718,6 +965,9 @@
             const testGridSize = Math.ceil(Math.sqrt(testFiles.length)) || 1;
             const codeQuarterSize = codeGridSize * spacing + 4;
             const testQuarterSize = testGridSize * spacing + 4;
+
+            const codeSpiralPositions = generateSpiralPositions(codeFiles.length, codeGridSize);
+            const testSpiralPositions = generateSpiralPositions(testFiles.length, testGridSize);
             const gap = 3;
             const groundWidth = codeQuarterSize + testQuarterSize + gap;
             const groundHeight = Math.max(codeQuarterSize, testQuarterSize);
@@ -759,13 +1009,12 @@
             scene.add(mainRoad);
 
             codeFiles.forEach((file, index) => {
-                const row = Math.floor(index / codeGridSize);
-                const col = index % codeGridSize;
+                const pos = codeSpiralPositions[index];
                 const commits = file.commits || 1;
                 const height = Math.max(1, (commits / maxCommits) * maxHeight);
                 const baseColor = generateVibrantColor(index, codeFiles.length);
-                const x = codeOffsetX + (col - codeGridSize / 2) * spacing;
-                const z = (row - codeGridSize / 2) * spacing;
+                const x = codeOffsetX + (pos.col - codeGridSize / 2) * spacing;
+                const z = (pos.row - codeGridSize / 2) * spacing;
                 const { group, meshes } = createBuilding(file, x, z, height, baseColor);
                 scene.add(group);
                 buildings.push(...meshes);
@@ -783,13 +1032,12 @@
             });
 
             testFiles.forEach((file, index) => {
-                const row = Math.floor(index / testGridSize);
-                const col = index % testGridSize;
+                const pos = testSpiralPositions[index];
                 const commits = file.commits || 1;
                 const height = Math.max(1, (commits / maxCommits) * maxHeight);
                 const baseColor = new THREE.Color().setHSL(0.75 + (index / testFiles.length) * 0.15, 0.7, 0.5);
-                const x = testOffsetX + (col - testGridSize / 2) * spacing;
-                const z = (row - testGridSize / 2) * spacing;
+                const x = testOffsetX + (pos.col - testGridSize / 2) * spacing;
+                const z = (pos.row - testGridSize / 2) * spacing;
                 const { group, meshes } = createBuilding(file, x, z, height, baseColor);
                 scene.add(group);
                 buildings.push(...meshes);
@@ -828,10 +1076,9 @@
             scene.add(createFountain(0, 0));
 
             codeFiles.forEach((file, index) => {
-                const row = Math.floor(index / codeGridSize);
-                const col = index % codeGridSize;
-                const x = codeOffsetX + (col - codeGridSize / 2) * spacing;
-                const z = (row - codeGridSize / 2) * spacing;
+                const pos = codeSpiralPositions[index];
+                const x = codeOffsetX + (pos.col - codeGridSize / 2) * spacing;
+                const z = (pos.row - codeGridSize / 2) * spacing;
                 const commits = file.commits || 1;
                 const numPeople = Math.min(3, Math.ceil((commits / maxCommits) * 3));
                 for (let p = 0; p < numPeople; p++) {

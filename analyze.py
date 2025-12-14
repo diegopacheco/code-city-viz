@@ -117,6 +117,15 @@ def analyze_codebase(root_dir):
             })
     return sorted(files_data, key=lambda x: x['commits'], reverse=True)
 
+def extract_org_repo(github_url):
+    url = github_url.rstrip('/')
+    if url.endswith('.git'):
+        url = url[:-4]
+    parts = url.split('/')
+    if len(parts) >= 2:
+        return parts[-2], parts[-1]
+    return 'unknown', 'unknown'
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python analyze.py <github_url>")
@@ -129,8 +138,11 @@ def main():
     files_data = analyze_codebase(target_dir)
     total_bugs = sum(f['bugs'] for f in files_data)
     files_with_bugs = len([f for f in files_data if f['bugs'] > 0])
+    org, repo = extract_org_repo(github_url)
     output = {
         'repo_url': github_url,
+        'org': org,
+        'repo': repo,
         'total_files': len(files_data),
         'total_loc': sum(f['loc'] for f in files_data),
         'total_commits': sum(f['commits'] for f in files_data),
@@ -138,9 +150,20 @@ def main():
         'files_with_bugs': files_with_bugs,
         'files': files_data
     }
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data.json')
+    output_filename = f"{org}_{repo}.json"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(script_dir, output_filename)
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
+    files_json_path = os.path.join(script_dir, 'files.json')
+    existing_files = []
+    if os.path.exists(files_json_path):
+        with open(files_json_path, 'r') as f:
+            existing_files = json.load(f)
+    if output_filename not in existing_files:
+        existing_files.append(output_filename)
+        with open(files_json_path, 'w') as f:
+            json.dump(existing_files, f)
     print(f"Analysis complete: {output['total_files']} files, {output['total_loc']} LOC")
     print(f"Found {total_bugs} bug-related commits affecting {files_with_bugs} files")
     print(f"Data saved to {output_path}")

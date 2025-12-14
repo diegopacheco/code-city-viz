@@ -1,5 +1,7 @@
 {
   "repo_url": "https://github.com/google/gson",
+  "org": "google",
+  "repo": "gson",
   "total_files": 259,
   "total_loc": 54067,
   "total_commits": 3802,
