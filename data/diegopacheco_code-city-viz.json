@@ -2,9 +2,9 @@
   "repo_url": "https://github.com/diegopacheco/code-city-viz",
   "org": "diegopacheco",
   "repo": "code-city-viz",
-  "total_files": 13,
-  "total_loc": 1582,
-  "total_commits": 17,
+  "total_files": 27,
+  "total_loc": 2471,
+  "total_commits": 33,
   "total_bugs": 0,
   "files_with_bugs": 0,
   "files": [
@@ -43,11 +43,28 @@
       "smell_score": 0
     },
     {
+      "path": "test/ui.test.js",
+      "name": "ui.test.js",
+      "extension": ".js",
+      "loc": 84,
+      "commits": 2,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
       "path": "src/ui.js",
       "name": "ui.js",
       "extension": ".js",
-      "loc": 136,
-      "commits": 1,
+      "loc": 134,
+      "commits": 2,
       "bugs": 0,
       "directory": "src",
       "smells": {
@@ -58,6 +75,227 @@
         "low_comments": true
       },
       "smell_score": 23
+    },
+    {
+      "path": "test.sh",
+      "name": "test.sh",
+      "extension": ".sh",
+      "loc": 3,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
+    },
+    {
+      "path": "test/state.test.js",
+      "name": "state.test.js",
+      "extension": ".js",
+      "loc": 18,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
+    },
+    {
+      "path": "test/environment.test.js",
+      "name": "environment.test.js",
+      "extension": ".js",
+      "loc": 30,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "test/entities.test.js",
+      "name": "entities.test.js",
+      "extension": ".js",
+      "loc": 32,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "test/three-stub.js",
+      "name": "three-stub.js",
+      "extension": ".js",
+      "loc": 243,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "test/main.test.js",
+      "name": "main.test.js",
+      "extension": ".js",
+      "loc": 57,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 1,
+        "low_comments": true
+      },
+      "smell_score": 11
+    },
+    {
+      "path": "test/controls.test.js",
+      "name": "controls.test.js",
+      "extension": ".js",
+      "loc": 94,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "test/city.test.js",
+      "name": "city.test.js",
+      "extension": ".js",
+      "loc": 61,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 2,
+        "low_comments": true
+      },
+      "smell_score": 12
+    },
+    {
+      "path": "test/buildings.test.js",
+      "name": "buildings.test.js",
+      "extension": ".js",
+      "loc": 19,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": false
+      },
+      "smell_score": 0
+    },
+    {
+      "path": "test/helpers.js",
+      "name": "helpers.js",
+      "extension": ".js",
+      "loc": 133,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 1,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 20
+    },
+    {
+      "path": "test/utils.test.js",
+      "name": "utils.test.js",
+      "extension": ".js",
+      "loc": 30,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "test/weather.test.js",
+      "name": "weather.test.js",
+      "extension": ".js",
+      "loc": 54,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
+    },
+    {
+      "path": "test/textures.test.js",
+      "name": "textures.test.js",
+      "extension": ".js",
+      "loc": 33,
+      "commits": 1,
+      "bugs": 0,
+      "directory": "test",
+      "smells": {
+        "long_file": false,
+        "long_functions": 0,
+        "deep_nesting": 0,
+        "long_lines": 0,
+        "low_comments": true
+      },
+      "smell_score": 10
     },
     {
       "path": "src/weather.js",
